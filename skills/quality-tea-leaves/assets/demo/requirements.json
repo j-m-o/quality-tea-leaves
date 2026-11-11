@@ -1,0 +1,41 @@
+{
+ "exported_at": "2026-09-30T00:00:00Z",
+ "services_total": 9,
+ "services_reporting": 2,
+ "requirements": [
+  {
+   "id": "REQ-101",
+   "service": "checkout",
+   "text": "Guest checkout completes with a saved card",
+   "linked_tests": [
+    "e2e_guest_checkout_card"
+   ],
+   "last_result": "quarantined"
+  },
+  {
+   "id": "REQ-102",
+   "service": "checkout",
+   "text": "Promo codes apply before tax",
+   "linked_tests": [],
+   "last_result": null
+  },
+  {
+   "id": "REQ-201",
+   "service": "payments",
+   "text": "Declined cards retry once with backoff",
+   "linked_tests": [
+    "test_payment_retry_a"
+   ],
+   "last_result": "passed"
+  },
+  {
+   "id": "REQ-202",
+   "service": "payments",
+   "text": "Apple Pay confirmation under 3 seconds",
+   "linked_tests": [
+    "e2e_apple_pay_confirm"
+   ],
+   "last_result": "quarantined"
+  }
+ ]
+}

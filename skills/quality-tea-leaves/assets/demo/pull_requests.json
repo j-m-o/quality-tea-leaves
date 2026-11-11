@@ -1,0 +1,1149 @@
+{
+ "pull_requests": [
+  {
+   "number": 4101,
+   "merged_at": "2026-10-13T03:44:00Z",
+   "author": "avery.lane",
+   "files": [
+    "src/accounts/models.py",
+    "src/accounts/service.py",
+    "src/cart/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4102,
+   "merged_at": "2026-10-13T11:12:00Z",
+   "author": "bo.okafor",
+   "files": [
+    "src/cart/api.py",
+    "src/cart/validators.py",
+    "src/shipping/service.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4103,
+   "merged_at": "2026-10-13T18:40:00Z",
+   "author": "casey.ruiz",
+   "files": [
+    "src/accounts/service.py",
+    "src/cart/api.py",
+    "src/checkout/api.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4104,
+   "merged_at": "2026-10-14T02:08:00Z",
+   "author": "dana.whitfield",
+   "files": [
+    "src/payments/models.py",
+    "src/payments/service.py",
+    "src/payments/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4105,
+   "merged_at": "2026-10-14T09:36:00Z",
+   "author": "eli.marsh",
+   "files": [
+    "src/accounts/models.py",
+    "src/cart/models.py",
+    "src/shipping/api.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4106,
+   "merged_at": "2026-10-14T17:04:00Z",
+   "author": "fran.ito",
+   "files": [
+    "src/accounts/api.py",
+    "src/cart/service.py",
+    "src/shipping/models.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4107,
+   "merged_at": "2026-10-15T00:32:00Z",
+   "author": "avery.lane",
+   "files": [
+    "src/accounts/models.py",
+    "src/payments/service.py",
+    "src/payments/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4108,
+   "merged_at": "2026-10-15T08:00:00Z",
+   "author": "bo.okafor",
+   "files": [
+    "src/checkout/promo_rules.py",
+    "src/checkout/service.py",
+    "src/payments/service.py",
+    "src/shipping/api.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4109,
+   "merged_at": "2026-10-15T15:28:00Z",
+   "author": "casey.ruiz",
+   "files": [
+    "src/accounts/api.py",
+    "src/accounts/models.py",
+    "src/accounts/service.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4110,
+   "merged_at": "2026-10-15T22:56:00Z",
+   "author": "dana.whitfield",
+   "files": [
+    "src/cart/service.py",
+    "src/checkout/service.py",
+    "src/payments/api.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4111,
+   "merged_at": "2026-10-16T06:24:00Z",
+   "author": "eli.marsh",
+   "files": [
+    "src/accounts/validators.py",
+    "src/payments/service.py",
+    "src/shipping/api.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4112,
+   "merged_at": "2026-10-16T13:52:00Z",
+   "author": "fran.ito",
+   "files": [
+    "src/accounts/models.py",
+    "src/cart/validators.py",
+    "src/payments/models.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4113,
+   "merged_at": "2026-10-16T21:20:00Z",
+   "author": "avery.lane",
+   "files": [
+    "src/cart/models.py",
+    "src/checkout/service.py",
+    "src/shipping/service.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4114,
+   "merged_at": "2026-10-17T04:48:00Z",
+   "author": "bo.okafor",
+   "files": [
+    "src/accounts/validators.py",
+    "src/checkout/validators.py",
+    "src/payments/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4115,
+   "merged_at": "2026-10-17T12:16:00Z",
+   "author": "casey.ruiz",
+   "files": [
+    "src/accounts/service.py",
+    "src/cart/validators.py",
+    "src/shipping/models.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4116,
+   "merged_at": "2026-10-17T19:44:00Z",
+   "author": "dana.whitfield",
+   "files": [
+    "src/accounts/api.py",
+    "src/checkout/service.py",
+    "src/shipping/api.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4117,
+   "merged_at": "2026-10-18T03:12:00Z",
+   "author": "eli.marsh",
+   "files": [
+    "src/accounts/models.py",
+    "src/payments/api.py",
+    "src/shipping/models.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4118,
+   "merged_at": "2026-10-18T10:40:00Z",
+   "author": "fran.ito",
+   "files": [
+    "src/accounts/validators.py",
+    "src/cart/api.py",
+    "src/checkout/service.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4119,
+   "merged_at": "2026-10-18T18:08:00Z",
+   "author": "avery.lane",
+   "files": [
+    "src/accounts/models.py",
+    "src/payments/api.py",
+    "src/shipping/service.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4120,
+   "merged_at": "2026-10-19T01:36:00Z",
+   "author": "bo.okafor",
+   "files": [
+    "src/cart/api.py",
+    "src/checkout/models.py",
+    "src/checkout/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4121,
+   "merged_at": "2026-10-19T09:04:00Z",
+   "author": "casey.ruiz",
+   "files": [
+    "src/accounts/api.py",
+    "src/payments/service.py",
+    "src/shipping/models.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4122,
+   "merged_at": "2026-10-19T16:32:00Z",
+   "author": "dana.whitfield",
+   "files": [
+    "src/accounts/api.py",
+    "src/cart/validators.py",
+    "src/payments/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4123,
+   "merged_at": "2026-10-20T00:00:00Z",
+   "author": "eli.marsh",
+   "files": [
+    "src/accounts/api.py",
+    "src/cart/api.py",
+    "src/cart/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4124,
+   "merged_at": "2026-10-20T07:28:00Z",
+   "author": "fran.ito",
+   "files": [
+    "src/accounts/api.py",
+    "src/checkout/api.py",
+    "src/payments/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4125,
+   "merged_at": "2026-10-20T14:56:00Z",
+   "author": "avery.lane",
+   "files": [
+    "src/cart/service.py",
+    "src/payments/validators.py",
+    "src/shipping/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4126,
+   "merged_at": "2026-10-20T22:24:00Z",
+   "author": "bo.okafor",
+   "files": [
+    "src/accounts/api.py",
+    "src/checkout/models.py",
+    "src/payments/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4127,
+   "merged_at": "2026-10-21T05:52:00Z",
+   "author": "casey.ruiz",
+   "files": [
+    "src/cart/api.py",
+    "src/checkout/validators.py",
+    "src/payments/api.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4128,
+   "merged_at": "2026-10-21T13:20:00Z",
+   "author": "dana.whitfield",
+   "files": [
+    "src/cart/models.py",
+    "src/checkout/validators.py",
+    "src/shipping/api.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4129,
+   "merged_at": "2026-10-21T20:48:00Z",
+   "author": "eli.marsh",
+   "files": [
+    "src/cart/models.py",
+    "src/checkout/validators.py",
+    "src/shipping/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4130,
+   "merged_at": "2026-10-22T04:16:00Z",
+   "author": "fran.ito",
+   "files": [
+    "src/accounts/service.py",
+    "src/payments/api.py",
+    "src/shipping/api.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4131,
+   "merged_at": "2026-10-22T11:44:00Z",
+   "author": "avery.lane",
+   "files": [
+    "src/cart/models.py",
+    "src/cart/service.py",
+    "src/checkout/api.py",
+    "src/payments/retry_policy.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4132,
+   "merged_at": "2026-10-22T19:12:00Z",
+   "author": "bo.okafor",
+   "files": [
+    "src/accounts/validators.py",
+    "src/payments/validators.py",
+    "src/shipping/service.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4133,
+   "merged_at": "2026-10-23T02:40:00Z",
+   "author": "casey.ruiz",
+   "files": [
+    "src/accounts/models.py",
+    "src/cart/validators.py",
+    "src/shipping/api.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4134,
+   "merged_at": "2026-10-23T10:08:00Z",
+   "author": "dana.whitfield",
+   "files": [
+    "src/checkout/models.py",
+    "src/payments/models.py",
+    "src/shipping/api.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4135,
+   "merged_at": "2026-10-23T17:36:00Z",
+   "author": "eli.marsh",
+   "files": [
+    "src/accounts/validators.py",
+    "src/payments/service.py",
+    "src/shipping/models.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4136,
+   "merged_at": "2026-10-24T01:04:00Z",
+   "author": "fran.ito",
+   "files": [
+    "src/accounts/api.py",
+    "src/checkout/api.py",
+    "src/shipping/service.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4137,
+   "merged_at": "2026-10-24T08:32:00Z",
+   "author": "avery.lane",
+   "files": [
+    "src/accounts/api.py",
+    "src/accounts/service.py",
+    "src/payments/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4138,
+   "merged_at": "2026-10-24T16:00:00Z",
+   "author": "bo.okafor",
+   "files": [
+    "src/accounts/service.py",
+    "src/cart/models.py",
+    "src/shipping/service.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4139,
+   "merged_at": "2026-10-24T23:28:00Z",
+   "author": "casey.ruiz",
+   "files": [
+    "src/accounts/service.py",
+    "src/cart/api.py",
+    "src/shipping/service.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4140,
+   "merged_at": "2026-10-25T06:56:00Z",
+   "author": "dana.whitfield",
+   "files": [
+    "src/accounts/api.py",
+    "src/cart/models.py",
+    "src/checkout/service.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4141,
+   "merged_at": "2026-10-25T14:24:00Z",
+   "author": "eli.marsh",
+   "files": [
+    "src/accounts/api.py",
+    "src/payments/api.py",
+    "src/shipping/api.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4142,
+   "merged_at": "2026-10-25T21:52:00Z",
+   "author": "fran.ito",
+   "files": [
+    "src/checkout/api.py",
+    "src/checkout/models.py",
+    "src/payments/api.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4143,
+   "merged_at": "2026-10-26T05:20:00Z",
+   "author": "avery.lane",
+   "files": [
+    "src/accounts/service.py",
+    "src/payments/api.py",
+    "src/payments/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4144,
+   "merged_at": "2026-10-26T12:48:00Z",
+   "author": "bo.okafor",
+   "files": [
+    "src/accounts/validators.py",
+    "src/cart/service.py",
+    "src/checkout/api.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4145,
+   "merged_at": "2026-10-26T20:16:00Z",
+   "author": "casey.ruiz",
+   "files": [
+    "src/checkout/models.py",
+    "src/payments/service.py",
+    "src/shipping/api.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4146,
+   "merged_at": "2026-10-27T03:21:36Z",
+   "author": "avery.lane",
+   "files": [
+    "src/accounts/validators.py",
+    "src/checkout/service.py",
+    "src/checkout/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4147,
+   "merged_at": "2026-10-27T10:04:48Z",
+   "author": "bo.okafor",
+   "files": [
+    "src/checkout/models.py",
+    "src/payments/api.py",
+    "src/payments/models.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4148,
+   "merged_at": "2026-10-27T16:48:00Z",
+   "author": "casey.ruiz",
+   "files": [
+    "src/cart/validators.py",
+    "src/checkout/service.py",
+    "src/shipping/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4149,
+   "merged_at": "2026-10-27T23:31:12Z",
+   "author": "dana.whitfield",
+   "files": [
+    "src/accounts/service.py",
+    "src/cart/api.py",
+    "src/cart/service.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4150,
+   "merged_at": "2026-10-28T06:14:24Z",
+   "author": "eli.marsh",
+   "files": [
+    "src/accounts/validators.py",
+    "src/cart/api.py",
+    "src/checkout/models.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4151,
+   "merged_at": "2026-10-28T12:57:36Z",
+   "author": "fran.ito",
+   "files": [
+    "src/cart/api.py",
+    "src/cart/service.py",
+    "src/checkout/promo_rules.py",
+    "src/checkout/service.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4152,
+   "merged_at": "2026-10-28T19:40:48Z",
+   "author": "avery.lane",
+   "files": [
+    "src/accounts/validators.py",
+    "src/cart/api.py",
+    "src/shipping/models.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4153,
+   "merged_at": "2026-10-29T02:24:00Z",
+   "author": "bo.okafor",
+   "files": [
+    "src/accounts/models.py",
+    "src/accounts/service.py",
+    "src/cart/models.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4154,
+   "merged_at": "2026-10-29T09:07:12Z",
+   "author": "casey.ruiz",
+   "files": [
+    "src/accounts/service.py",
+    "src/cart/validators.py",
+    "src/shipping/models.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4155,
+   "merged_at": "2026-10-29T15:50:24Z",
+   "author": "dana.whitfield",
+   "files": [
+    "src/accounts/models.py",
+    "src/checkout/models.py",
+    "src/shipping/api.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4156,
+   "merged_at": "2026-10-29T22:33:36Z",
+   "author": "eli.marsh",
+   "files": [
+    "src/accounts/api.py",
+    "src/cart/api.py",
+    "src/shipping/models.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4157,
+   "merged_at": "2026-10-30T05:16:48Z",
+   "author": "fran.ito",
+   "files": [
+    "src/accounts/validators.py",
+    "src/payments/api.py",
+    "src/shipping/models.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4158,
+   "merged_at": "2026-10-30T12:00:00Z",
+   "author": "avery.lane",
+   "files": [
+    "src/accounts/service.py",
+    "src/cart/validators.py",
+    "src/payments/api.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4159,
+   "merged_at": "2026-10-30T18:43:12Z",
+   "author": "bo.okafor",
+   "files": [
+    "src/accounts/models.py",
+    "src/cart/validators.py",
+    "src/shipping/models.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4160,
+   "merged_at": "2026-10-31T01:26:24Z",
+   "author": "casey.ruiz",
+   "files": [
+    "src/accounts/models.py",
+    "src/checkout/service.py",
+    "src/shipping/service.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4161,
+   "merged_at": "2026-10-31T08:09:36Z",
+   "author": "dana.whitfield",
+   "files": [
+    "src/accounts/models.py",
+    "src/accounts/validators.py",
+    "src/cart/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4162,
+   "merged_at": "2026-10-31T14:52:48Z",
+   "author": "eli.marsh",
+   "files": [
+    "src/accounts/service.py",
+    "src/cart/validators.py",
+    "src/checkout/api.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4163,
+   "merged_at": "2026-10-31T21:36:00Z",
+   "author": "fran.ito",
+   "files": [
+    "src/checkout/api.py",
+    "src/checkout/service.py",
+    "src/shipping/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4164,
+   "merged_at": "2026-11-01T04:19:12Z",
+   "author": "avery.lane",
+   "files": [
+    "src/accounts/models.py",
+    "src/accounts/validators.py",
+    "src/payments/models.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4165,
+   "merged_at": "2026-11-01T11:02:24Z",
+   "author": "bo.okafor",
+   "files": [
+    "src/accounts/api.py",
+    "src/cart/service.py",
+    "src/payments/service.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4166,
+   "merged_at": "2026-11-01T17:45:36Z",
+   "author": "casey.ruiz",
+   "files": [
+    "src/accounts/models.py",
+    "src/checkout/service.py",
+    "src/payments/api.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4167,
+   "merged_at": "2026-11-02T00:28:48Z",
+   "author": "dana.whitfield",
+   "files": [
+    "src/accounts/models.py",
+    "src/checkout/api.py",
+    "src/payments/api.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4168,
+   "merged_at": "2026-11-02T07:12:00Z",
+   "author": "eli.marsh",
+   "files": [
+    "src/cart/models.py",
+    "src/payments/models.py",
+    "src/payments/retry_policy.py",
+    "src/payments/service.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4169,
+   "merged_at": "2026-11-02T13:55:12Z",
+   "author": "fran.ito",
+   "files": [
+    "src/accounts/models.py",
+    "src/cart/api.py",
+    "src/shipping/models.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4170,
+   "merged_at": "2026-11-02T20:38:24Z",
+   "author": "avery.lane",
+   "files": [
+    "src/accounts/api.py",
+    "src/payments/validators.py",
+    "src/shipping/api.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4171,
+   "merged_at": "2026-11-03T03:21:36Z",
+   "author": "bo.okafor",
+   "files": [
+    "src/accounts/validators.py",
+    "src/cart/models.py",
+    "src/payments/service.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4172,
+   "merged_at": "2026-11-03T10:04:48Z",
+   "author": "casey.ruiz",
+   "files": [
+    "src/accounts/api.py",
+    "src/cart/validators.py",
+    "src/checkout/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4173,
+   "merged_at": "2026-11-03T16:48:00Z",
+   "author": "dana.whitfield",
+   "files": [
+    "src/accounts/validators.py",
+    "src/cart/api.py",
+    "src/cart/service.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4174,
+   "merged_at": "2026-11-03T23:31:12Z",
+   "author": "eli.marsh",
+   "files": [
+    "src/accounts/api.py",
+    "src/cart/service.py",
+    "src/checkout/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4175,
+   "merged_at": "2026-11-04T06:14:24Z",
+   "author": "fran.ito",
+   "files": [
+    "src/payments/service.py",
+    "src/shipping/api.py",
+    "src/shipping/models.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4176,
+   "merged_at": "2026-11-04T12:57:36Z",
+   "author": "avery.lane",
+   "files": [
+    "src/cart/api.py",
+    "src/cart/service.py",
+    "src/shipping/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4177,
+   "merged_at": "2026-11-04T19:40:48Z",
+   "author": "bo.okafor",
+   "files": [
+    "src/cart/models.py",
+    "src/checkout/models.py",
+    "src/shipping/service.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4178,
+   "merged_at": "2026-11-05T02:24:00Z",
+   "author": "casey.ruiz",
+   "files": [
+    "src/accounts/api.py",
+    "src/checkout/validators.py",
+    "src/shipping/models.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4179,
+   "merged_at": "2026-11-05T09:07:12Z",
+   "author": "dana.whitfield",
+   "files": [
+    "src/payments/api.py",
+    "src/shipping/api.py",
+    "src/shipping/service.py"
+   ],
+   "checks_bypassed": true,
+   "bypass_method": "admin_override"
+  },
+  {
+   "number": 4180,
+   "merged_at": "2026-11-05T15:50:24Z",
+   "author": "eli.marsh",
+   "files": [
+    "src/cart/api.py",
+    "src/payments/validators.py",
+    "src/shipping/service.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4181,
+   "merged_at": "2026-11-05T22:33:36Z",
+   "author": "fran.ito",
+   "files": [
+    "src/accounts/api.py",
+    "src/payments/validators.py",
+    "src/shipping/models.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4182,
+   "merged_at": "2026-11-06T05:16:48Z",
+   "author": "avery.lane",
+   "files": [
+    "src/accounts/validators.py",
+    "src/cart/service.py",
+    "src/cart/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4183,
+   "merged_at": "2026-11-06T12:00:00Z",
+   "author": "bo.okafor",
+   "files": [
+    "src/payments/validators.py",
+    "src/shipping/models.py",
+    "src/shipping/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4184,
+   "merged_at": "2026-11-06T18:43:12Z",
+   "author": "casey.ruiz",
+   "files": [
+    "src/checkout/validators.py",
+    "src/payments/validators.py",
+    "src/shipping/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4185,
+   "merged_at": "2026-11-07T01:26:24Z",
+   "author": "dana.whitfield",
+   "files": [
+    "src/cart/service.py",
+    "src/payments/service.py",
+    "src/shipping/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4186,
+   "merged_at": "2026-11-07T08:09:36Z",
+   "author": "eli.marsh",
+   "files": [
+    "src/cart/api.py",
+    "src/cart/service.py",
+    "src/checkout/models.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4187,
+   "merged_at": "2026-11-07T14:52:48Z",
+   "author": "fran.ito",
+   "files": [
+    "src/cart/legacy_tax.py",
+    "src/cart/service.py",
+    "src/shipping/api.py",
+    "src/shipping/models.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4188,
+   "merged_at": "2026-11-07T21:36:00Z",
+   "author": "avery.lane",
+   "files": [
+    "src/accounts/service.py",
+    "src/payments/models.py",
+    "src/shipping/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4189,
+   "merged_at": "2026-11-08T04:19:12Z",
+   "author": "bo.okafor",
+   "files": [
+    "src/payments/validators.py",
+    "src/shipping/api.py",
+    "src/shipping/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4190,
+   "merged_at": "2026-11-08T11:02:24Z",
+   "author": "casey.ruiz",
+   "files": [
+    "src/payments/api.py",
+    "src/shipping/api.py",
+    "src/shipping/models.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4191,
+   "merged_at": "2026-11-08T17:45:36Z",
+   "author": "dana.whitfield",
+   "files": [
+    "src/payments/service.py",
+    "src/payments/validators.py",
+    "src/shipping/api.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4192,
+   "merged_at": "2026-11-09T00:28:48Z",
+   "author": "eli.marsh",
+   "files": [
+    "src/shipping/api.py",
+    "src/shipping/service.py",
+    "src/shipping/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4193,
+   "merged_at": "2026-11-09T07:12:00Z",
+   "author": "fran.ito",
+   "files": [
+    "src/checkout/validators.py",
+    "src/payments/service.py",
+    "src/shipping/validators.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4194,
+   "merged_at": "2026-11-09T13:55:12Z",
+   "author": "avery.lane",
+   "files": [
+    "src/cart/api.py",
+    "src/cart/models.py",
+    "src/payments/api.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  },
+  {
+   "number": 4195,
+   "merged_at": "2026-11-09T20:38:24Z",
+   "author": "bo.okafor",
+   "files": [
+    "src/accounts/api.py",
+    "src/checkout/models.py",
+    "src/shipping/api.py"
+   ],
+   "checks_bypassed": false,
+   "bypass_method": null
+  }
+ ]
+}

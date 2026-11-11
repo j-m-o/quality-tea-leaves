@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="620" viewBox="0 0 360 620" role="img" aria-label="Death, reversed · improving">
+<rect width="360" height="620" rx="20" fill="#0E2626"/>
+<rect x="12.5" y="12.5" width="335" height="595" rx="12" fill="none" stroke="#6E5B2E"/>
+<text x="34" y="50" font-family="Cinzel, 'Trajan Pro', Georgia, serif" font-size="16" letter-spacing="2" fill="#D4B062">XIII</text>
+<rect x="170" y="34" width="156" height="22" rx="11" fill="none" stroke="#D4B062"/>
+<text x="248" y="49" text-anchor="middle" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" letter-spacing="1.2" fill="#D4B062">REVERSED · IMPROVING</text>
+<text x="180" y="96" text-anchor="middle" font-family="Cinzel, 'Trajan Pro', Georgia, serif" font-size="25" font-weight="700" letter-spacing="1" fill="#D4B062">Death</text>
+<line x1="32" y1="114" x2="328" y2="114" stroke="#2C4A47"/><line x1="32" y1="264" x2="328" y2="264" stroke="#2C4A47"/>
+<g transform="translate(80 119)"><g fill="none" stroke="#D4B062" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" transform="rotate(180 100 70)"><path d="M62 10 H138 M62 130 H138"/><path d="M72 10 C72 50 98 58 98 70 C98 82 72 90 72 130"/><path d="M128 10 C128 50 102 58 102 70 C102 82 128 90 128 130"/><path d="M80 32 C90 46 110 46 120 32 Z" fill="#D4B062" fill-opacity="0.25"/><path d="M100 72 V112" stroke-dasharray="2 5"/><path d="M78 126 C86 108 114 108 122 126 Z" fill="#D4B062" fill-opacity="0.55"/></g></g>
+<text x="180" y="292" text-anchor="middle" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-style="italic" fill="#E8E1CF">The reaper turns from the gate. What was</text>
+<text x="180" y="312" text-anchor="middle" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-style="italic" fill="#E8E1CF">dying draws breath again; guard the</text>
+<text x="180" y="332" text-anchor="middle" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-style="italic" fill="#E8E1CF">remedies that stayed his hand.</text>
+<text x="34" y="362" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11" letter-spacing="1.5" fill="#9FB3AC">CONFIDENCE</text>
+<text x="326" y="362" text-anchor="end" font-family="'JetBrains Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#D4B062">MEDIUM ●●○</text>
+<rect x="32" y="378" width="296" height="106" rx="8" fill="#133333"/>
+<text x="44" y="400" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11" letter-spacing="1.5" fill="#9FB3AC">EVIDENCE</text>
+<text x="44" y="420" font-family="'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" fill="#E8E1CF">SLO: checkout-availability</text>
+<text x="44" y="438" font-family="'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" fill="#E8E1CF">Burn rate: 0.8x (was 3.1x)</text>
+<text x="44" y="456" font-family="'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" fill="#E8E1CF">Budget left: 64% (was 9%)</text>
+<text x="44" y="474" font-family="'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" fill="#E8E1CF">Window: 28 days</text>
+<text x="34" y="592" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#9FB3AC">Signal: Error budget</text>
+<text x="326" y="592" text-anchor="end" font-family="'JetBrains Mono', Menlo, Consolas, monospace" font-size="10" fill="#9FB3AC">slo_alerts.json</text>
+</svg>

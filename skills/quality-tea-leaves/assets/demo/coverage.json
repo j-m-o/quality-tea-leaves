@@ -1,0 +1,28 @@
+{
+ "generated_at": "2026-11-09T00:00:00Z",
+ "files": {
+  "src/accounts/api.py": true,
+  "src/accounts/models.py": true,
+  "src/accounts/service.py": true,
+  "src/accounts/validators.py": true,
+  "src/cart/api.py": true,
+  "src/cart/legacy_tax.py": false,
+  "src/cart/models.py": true,
+  "src/cart/service.py": true,
+  "src/cart/validators.py": true,
+  "src/checkout/api.py": true,
+  "src/checkout/models.py": true,
+  "src/checkout/promo_rules.py": false,
+  "src/checkout/service.py": true,
+  "src/checkout/validators.py": true,
+  "src/payments/api.py": true,
+  "src/payments/models.py": true,
+  "src/payments/retry_policy.py": false,
+  "src/payments/service.py": true,
+  "src/payments/validators.py": true,
+  "src/shipping/api.py": true,
+  "src/shipping/models.py": true,
+  "src/shipping/service.py": true,
+  "src/shipping/validators.py": true
+ }
+}

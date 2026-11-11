@@ -1,0 +1,87 @@
+{
+ "services": [
+  "web",
+  "checkout",
+  "cart",
+  "payments",
+  "pricing",
+  "inventory",
+  "shipping",
+  "accounts",
+  "notifications"
+ ],
+ "edges": [
+  {
+   "from": "web",
+   "to": "checkout",
+   "integration_tests": 12,
+   "contract_tests": 3
+  },
+  {
+   "from": "web",
+   "to": "cart",
+   "integration_tests": 12,
+   "contract_tests": 2
+  },
+  {
+   "from": "web",
+   "to": "accounts",
+   "integration_tests": 13,
+   "contract_tests": 1
+  },
+  {
+   "from": "checkout",
+   "to": "cart",
+   "integration_tests": 11,
+   "contract_tests": 2
+  },
+  {
+   "from": "checkout",
+   "to": "payments",
+   "integration_tests": 3,
+   "contract_tests": 2
+  },
+  {
+   "from": "checkout",
+   "to": "pricing",
+   "integration_tests": 9,
+   "contract_tests": 3
+  },
+  {
+   "from": "checkout",
+   "to": "shipping",
+   "integration_tests": 7,
+   "contract_tests": 5
+  },
+  {
+   "from": "cart",
+   "to": "pricing",
+   "integration_tests": 7,
+   "contract_tests": 1
+  },
+  {
+   "from": "cart",
+   "to": "inventory",
+   "integration_tests": 5,
+   "contract_tests": 5
+  },
+  {
+   "from": "payments",
+   "to": "notifications",
+   "integration_tests": 0,
+   "contract_tests": 0
+  },
+  {
+   "from": "shipping",
+   "to": "inventory",
+   "integration_tests": 7,
+   "contract_tests": 6
+  },
+  {
+   "from": "accounts",
+   "to": "notifications",
+   "integration_tests": 12,
+   "contract_tests": 2
+  }
+ ]
+}

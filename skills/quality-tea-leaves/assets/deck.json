@@ -1,0 +1,197 @@
+{
+  "deck": "Quality Tea Leaves",
+  "version": "1.0.0",
+  "clouded_prophecy": "The mists will not part. The oracle will not speak of what it cannot see. Bring evidence, and the veil will lift.",
+  "clouded_omen": "lies in mist",
+  "cards": [
+    {
+      "id": "fool",
+      "number": 0,
+      "numeral": "0",
+      "name": "The Fool",
+      "signal": "Untested change",
+      "slot": "leading",
+      "source": "pull_requests.json + coverage.json",
+      "threshold": 10,
+      "unit": "%",
+      "min_sample": 10,
+      "window_days": 14,
+      "prophecy": {
+        "upright": "A traveler steps from the cliff with eyes on the sky. Changes march into the world with no test to catch their fall.",
+        "reversed": "The traveler has learned to look down. Fewer changes leap untested; keep the net beneath them."
+      },
+      "omen": {"upright": "the fool steps blindly from the cliff", "reversed": "the fool learns to look down"},
+      "art": "<path d=\"M10 132 L10 92 L96 92 L96 132\"/><circle cx=\"112\" cy=\"52\" r=\"7\"/><path d=\"M112 59 L112 84 M112 66 L100 74 M112 66 L126 60 M112 84 L104 98 M112 84 L124 94\"/><circle cx=\"168\" cy=\"26\" r=\"12\"/><path d=\"M168 6 V10 M168 42 V46 M148 26 H152 M184 26 H188\"/><path d=\"M118 104 L118 128\" stroke-dasharray=\"3 5\"/><path d=\"M112 122 L118 130 L124 122\"/>"
+    },
+    {
+      "id": "emperor",
+      "number": 4,
+      "numeral": "IV",
+      "name": "The Emperor",
+      "signal": "Rules bypassed",
+      "slot": "current",
+      "source": "pull_requests.json",
+      "threshold": 0,
+      "unit": "merges",
+      "min_sample": 10,
+      "window_days": 14,
+      "prophecy": {
+        "upright": "The throne's law was broken in the night. A merge passed the gates without the guards' blessing.",
+        "reversed": "Order returns to the realm. The gates hold, and every merge kneels to the checks."
+      },
+      "omen": {"upright": "the emperor's law is broken", "reversed": "the emperor's law is restored"},
+      "art": "<path d=\"M58 74 L68 36 L88 58 L100 26 L112 58 L132 36 L142 74 Z\"/><path d=\"M58 82 H142 V92 H58 Z\"/><circle cx=\"100\" cy=\"46\" r=\"3\"/><path d=\"M74 112 L90 126 L100 116 M108 108 L128 88\" stroke-width=\"2.4\"/><path d=\"M101 114 L107 109\" stroke-dasharray=\"2 3\"/>"
+    },
+    {
+      "id": "hierophant",
+      "number": 5,
+      "numeral": "V",
+      "name": "The Hierophant",
+      "signal": "Requirements evidence",
+      "slot": "leading",
+      "source": "requirements.json",
+      "threshold": 10,
+      "unit": "%",
+      "min_sample": 5,
+      "max_age_days": 14,
+      "prophecy": {
+        "upright": "Sacred vows were spoken, but no rite proves them. Requirements stand without a single test to bear witness.",
+        "reversed": "The vows are kept and witnessed. Requirements once unproven now stand behind passing tests."
+      },
+      "omen": {"upright": "the vows go unwitnessed", "reversed": "the vows are witnessed"},
+      "art": "<path d=\"M50 40 L100 14 L150 40 Z M54 40 H146 M58 46 V116 M78 46 V116 M122 46 V116 M142 46 V116 M50 116 H150 M44 124 H156\"/><circle cx=\"94\" cy=\"80\" r=\"7\"/><path d=\"M99 85 L114 100 M108 94 L112 90\"/><circle cx=\"106\" cy=\"80\" r=\"7\"/><path d=\"M101 85 L86 100 M92 94 L88 90\"/>"
+    },
+    {
+      "id": "hermit",
+      "number": 9,
+      "numeral": "IX",
+      "name": "The Hermit",
+      "signal": "Isolated services",
+      "slot": "leading",
+      "source": "service_map.json",
+      "threshold": 20,
+      "unit": "%",
+      "min_sample": 5,
+      "prophecy": {
+        "upright": "The hermit dwells alone. Services meet at the border, yet no one has ever tested the crossing.",
+        "reversed": "The hermit comes down the mountain. Borders once untested now have watchers at the gate."
+      },
+      "omen": {"upright": "the hermit's borders go unwatched", "reversed": "the hermit's borders are watched"},
+      "art": "<path d=\"M14 132 L70 52 L104 96 L130 70 L186 132\"/><path d=\"M140 22 V120\"/><path d=\"M140 30 L128 40 L128 60 L152 60 L152 40 Z\"/><path d=\"M140 42 L142 48 L148 48 L143 52 L145 58 L140 54 L135 58 L137 52 L132 48 L138 48 Z\"/>"
+    },
+    {
+      "id": "hanged_man",
+      "number": 12,
+      "numeral": "XII",
+      "name": "The Hanged Man",
+      "signal": "Suspended E2E",
+      "slot": "current",
+      "source": "ci_runs.json",
+      "threshold": 0,
+      "unit": "tests",
+      "min_sample": 20,
+      "window_days": 14,
+      "pass_rate_drop_points": 5,
+      "prophecy": {
+        "upright": "The journeys hang suspended. Critical paths dangle in quarantine, and no one walks them to the end.",
+        "reversed": "The hanged are cut down. Critical journeys walk again, end to end."
+      },
+      "omen": {"upright": "critical journeys hang suspended", "reversed": "the journeys walk again"},
+      "art": "<path d=\"M40 16 H160 M60 16 V132 M140 16 V132\"/><path d=\"M100 16 V44\"/><path d=\"M100 44 L86 66 L114 66 Z\"/><circle cx=\"100\" cy=\"84\" r=\"5\"/><circle cx=\"100\" cy=\"104\" r=\"5\"/><circle cx=\"100\" cy=\"124\" r=\"5\"/><path d=\"M100 89 V99 M100 109 V119\" stroke-dasharray=\"2 3\"/>"
+    },
+    {
+      "id": "death",
+      "number": 13,
+      "numeral": "XIII",
+      "name": "Death",
+      "signal": "Error budget",
+      "slot": "lagging",
+      "source": "slo_alerts.json",
+      "threshold": 1.0,
+      "unit": "x burn",
+      "min_sample": 14,
+      "prophecy": {
+        "upright": "The reaper stands at the gate. The error budget bleeds away, and with it, your users' patience.",
+        "reversed": "The reaper turns from the gate. What was dying draws breath again; guard the remedies that stayed his hand."
+      },
+      "omen": {"upright": "the reaper stands at the gate", "reversed": "the reaper retreats"},
+      "art": "<path d=\"M62 10 H138 M62 130 H138\"/><path d=\"M72 10 C72 50 98 58 98 70 C98 82 72 90 72 130\"/><path d=\"M128 10 C128 50 102 58 102 70 C102 82 128 90 128 130\"/><path d=\"M80 32 C90 46 110 46 120 32 Z\" fill=\"#D4B062\" fill-opacity=\"0.25\"/><path d=\"M100 72 V112\" stroke-dasharray=\"2 5\"/><path d=\"M78 126 C86 108 114 108 122 126 Z\" fill=\"#D4B062\" fill-opacity=\"0.55\"/>"
+    },
+    {
+      "id": "flaky_tower",
+      "number": 16,
+      "numeral": "XVI",
+      "name": "The Flaky Tower",
+      "signal": "Flakiness",
+      "slot": "current",
+      "source": "ci_runs.json",
+      "threshold": 3,
+      "unit": "%",
+      "min_sample": 30,
+      "window_days": 14,
+      "prophecy": {
+        "upright": "The tower trembles at its root. Its stones fail without cause, and every green banner flown above them is a lie.",
+        "reversed": "The tower's stones are settling. Fewer fall without cause; green begins to mean green again."
+      },
+      "omen": {"upright": "the tower trembles", "reversed": "the tower settles"},
+      "art": "<path d=\"M70 132 L70 46 L130 46 L130 132 Z\"/><path d=\"M64 46 L136 46 L136 36 L124 36 L124 30 L112 30 L112 36 L88 36 L88 30 L76 30 L76 36 L64 36 Z\"/><path d=\"M70 62 H130 M70 78 H130 M70 94 H130 M70 110 H130 M90 46 V62 M110 62 V78 M90 78 V94 M110 94 V110 M90 110 V132\"/><path d=\"M104 46 L98 60 L108 72 L96 88 L106 102 L100 116\" stroke-width=\"2\"/><path d=\"M150 4 L136 26 L146 26 L132 44\" stroke-width=\"2\"/><rect x=\"140\" y=\"70\" width=\"10\" height=\"7\" transform=\"rotate(20 145 73)\"/><rect x=\"150\" y=\"96\" width=\"9\" height=\"6\" transform=\"rotate(-15 154 99)\"/><rect x=\"44\" y=\"88\" width=\"9\" height=\"6\" transform=\"rotate(25 48 91)\"/><path d=\"M40 132 H160\"/>"
+    },
+    {
+      "id": "star",
+      "number": 17,
+      "numeral": "XVII",
+      "name": "The Star",
+      "signal": "Escaped defects",
+      "slot": "lagging",
+      "source": "incidents.json",
+      "min_sample": 4,
+      "min_count": 3,
+      "rise_ratio": 1.25,
+      "fall_ratio": 0.75,
+      "window_days": 28,
+      "prophecy": {
+        "upright": "The star dims. More defects slip past the watch and reach the people you serve.",
+        "reversed": "The star brightens. Fewer defects escape into the world; the watch is holding."
+      },
+      "omen": {"upright": "the star dims", "reversed": "the star brightens"},
+      "art": "<path d=\"M100 12 L110 56 L150 46 L118 72 L150 98 L110 88 L100 132 L90 88 L50 98 L82 72 L50 46 L90 56 Z\"/><circle cx=\"100\" cy=\"72\" r=\"8\"/><path d=\"M162 104 L168 116 M38 30 L30 42 M170 30 L176 22\" stroke-width=\"1.2\"/>"
+    },
+    {
+      "id": "moon",
+      "number": 18,
+      "numeral": "XVIII",
+      "name": "The Moon",
+      "signal": "Blind spots",
+      "slot": "current",
+      "source": "incidents.json",
+      "threshold": 25,
+      "unit": "%",
+      "min_sample": 4,
+      "window_days": 28,
+      "prophecy": {
+        "upright": "Under the moon, you see nothing. Your customers find the wounds before your alarms do.",
+        "reversed": "The moonlight sharpens. Your alarms now find trouble before your customers must."
+      },
+      "omen": {"upright": "the moon hides the wounds", "reversed": "the moonlight sharpens"},
+      "art": "<path d=\"M118 14 C88 20 74 56 92 82 C106 102 134 104 150 92 C122 92 102 70 106 46 C108 32 112 22 118 14 Z\"/><path d=\"M18 108 C40 100 58 114 82 106 C104 98 120 112 144 104 C160 100 172 104 184 102\"/><path d=\"M26 126 C48 118 66 132 90 124 C112 116 128 130 152 122\" opacity=\"0.7\"/><path d=\"M48 74 L56 82 M56 74 L48 82 M150 54 L156 60 M156 54 L150 60\" stroke-width=\"1.2\"/>"
+    },
+    {
+      "id": "judgement",
+      "number": 20,
+      "numeral": "XX",
+      "name": "Judgement",
+      "signal": "Unfinished lessons",
+      "slot": "lagging",
+      "source": "incidents.json",
+      "threshold": 20,
+      "unit": "%",
+      "min_sample": 5,
+      "prophecy": {
+        "upright": "The trumpet sounds, and the lessons go unanswered. Vows made after the fall lie overdue.",
+        "reversed": "The trumpet is answered. The lessons of past falls are being honored."
+      },
+      "omen": {"upright": "past lessons lie unanswered", "reversed": "the lessons are answered"},
+      "art": "<path d=\"M24 40 L92 54 L92 70 L24 84 Z\"/><path d=\"M92 50 C112 46 124 34 130 22 L130 102 C124 90 112 78 92 74\"/><path d=\"M140 44 L160 36 M142 62 L166 62 M140 80 L160 88\" stroke-width=\"1.2\"/><path d=\"M40 100 H60 V116 H40 Z M70 100 H90 V116 H70 Z M100 100 H120 V116 H100 Z\"/><path d=\"M44 108 L49 113 L56 104\"/>"
+    }
+  ]
+}

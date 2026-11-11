@@ -1,0 +1,9768 @@
+{
+ "runs": [
+  {
+   "id": "run-0001",
+   "branch": "main",
+   "commit": "9e90803930",
+   "started_at": "2026-10-27T00:32:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 83,
+    "failed": 1,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0002",
+   "branch": "main",
+   "commit": "6d6fe9e41f",
+   "started_at": "2026-10-27T01:36:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0003",
+   "branch": "main",
+   "commit": "82bd2f75c4",
+   "started_at": "2026-10-27T02:41:32Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0004",
+   "branch": "main",
+   "commit": "5b3f42c315",
+   "started_at": "2026-10-27T03:46:09Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0005",
+   "branch": "main",
+   "commit": "06bed71724",
+   "started_at": "2026-10-27T04:50:46Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0006",
+   "branch": "main",
+   "commit": "60e266a72d",
+   "started_at": "2026-10-27T05:55:23Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0007",
+   "branch": "main",
+   "commit": "b9b1f3d044",
+   "started_at": "2026-10-27T07:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0008",
+   "branch": "main",
+   "commit": "c795f67946",
+   "started_at": "2026-10-27T08:04:36Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0009",
+   "branch": "main",
+   "commit": "91da10ce2b",
+   "started_at": "2026-10-27T09:09:13Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0010",
+   "branch": "main",
+   "commit": "d45834fddf",
+   "started_at": "2026-10-27T10:13:50Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0011",
+   "branch": "main",
+   "commit": "61b1a899e1",
+   "started_at": "2026-10-27T11:18:27Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0012",
+   "branch": "main",
+   "commit": "698da8c2f1",
+   "started_at": "2026-10-27T12:23:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0013",
+   "branch": "main",
+   "commit": "727af5fd56",
+   "started_at": "2026-10-27T13:27:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0014",
+   "branch": "main",
+   "commit": "8df87a73b8",
+   "started_at": "2026-10-27T14:32:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0015",
+   "branch": "main",
+   "commit": "3b75e4834d",
+   "started_at": "2026-10-27T15:36:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0016",
+   "branch": "main",
+   "commit": "4d09e8a1f0",
+   "started_at": "2026-10-27T16:41:32Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0017",
+   "branch": "main",
+   "commit": "5d2fcd037a",
+   "started_at": "2026-10-27T17:46:09Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_cart_total_a",
+    "test_cart_total_b"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0018",
+   "branch": "main",
+   "commit": "f9a9b7eb22",
+   "started_at": "2026-10-27T18:50:46Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0019",
+   "branch": "main",
+   "commit": "3e64820a1e",
+   "started_at": "2026-10-27T19:55:23Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0020",
+   "branch": "main",
+   "commit": "aa1170fc88",
+   "started_at": "2026-10-27T21:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0021",
+   "branch": "main",
+   "commit": "d93803fa1c",
+   "started_at": "2026-10-27T22:04:36Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0022",
+   "branch": "main",
+   "commit": "6381583d9d",
+   "started_at": "2026-10-27T23:09:13Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0023",
+   "branch": "main",
+   "commit": "4dae1efc9d",
+   "started_at": "2026-10-28T00:13:50Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0024",
+   "branch": "main",
+   "commit": "0775ba5834",
+   "started_at": "2026-10-28T01:18:27Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0025",
+   "branch": "main",
+   "commit": "ea5e1a717c",
+   "started_at": "2026-10-28T02:23:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0026",
+   "branch": "main",
+   "commit": "5b1454c127",
+   "started_at": "2026-10-28T03:27:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0027",
+   "branch": "main",
+   "commit": "0b435a0538",
+   "started_at": "2026-10-28T04:32:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0028",
+   "branch": "main",
+   "commit": "c3470e852a",
+   "started_at": "2026-10-28T05:36:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0029",
+   "branch": "main",
+   "commit": "4f90d666ec",
+   "started_at": "2026-10-28T06:41:32Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0030",
+   "branch": "main",
+   "commit": "81d7278b00",
+   "started_at": "2026-10-28T07:46:09Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0031",
+   "branch": "main",
+   "commit": "5158139192",
+   "started_at": "2026-10-28T08:50:46Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0032",
+   "branch": "main",
+   "commit": "0b891d6530",
+   "started_at": "2026-10-28T09:55:23Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0033",
+   "branch": "main",
+   "commit": "d77c80316e",
+   "started_at": "2026-10-28T11:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0034",
+   "branch": "main",
+   "commit": "eea2ad2fdf",
+   "started_at": "2026-10-28T12:04:36Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0035",
+   "branch": "main",
+   "commit": "0d9e5018f0",
+   "started_at": "2026-10-28T13:09:13Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0036",
+   "branch": "main",
+   "commit": "b37aa63249",
+   "started_at": "2026-10-28T14:13:50Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0037",
+   "branch": "main",
+   "commit": "2079e32001",
+   "started_at": "2026-10-28T15:18:27Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0038",
+   "branch": "main",
+   "commit": "8330a46ab7",
+   "started_at": "2026-10-28T16:23:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 83,
+    "failed": 1,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0039",
+   "branch": "main",
+   "commit": "8a9f97bb42",
+   "started_at": "2026-10-28T17:27:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0040",
+   "branch": "main",
+   "commit": "f3879bf7b1",
+   "started_at": "2026-10-28T18:32:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0041",
+   "branch": "main",
+   "commit": "486d1bbad5",
+   "started_at": "2026-10-28T19:36:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0042",
+   "branch": "main",
+   "commit": "bcc69cdd7c",
+   "started_at": "2026-10-28T20:41:32Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_promo_apply_a",
+    "test_promo_apply_b"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0043",
+   "branch": "main",
+   "commit": "026f375d94",
+   "started_at": "2026-10-28T21:46:09Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_address_lookup_a",
+    "test_address_lookup_b"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0044",
+   "branch": "main",
+   "commit": "fa08cc0caa",
+   "started_at": "2026-10-28T22:50:46Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0045",
+   "branch": "main",
+   "commit": "49d16cda44",
+   "started_at": "2026-10-28T23:55:23Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_tax_calc_a",
+    "test_tax_calc_b"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0046",
+   "branch": "main",
+   "commit": "e54217db7b",
+   "started_at": "2026-10-29T01:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0047",
+   "branch": "main",
+   "commit": "2a5c9de31c",
+   "started_at": "2026-10-29T02:04:36Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0048",
+   "branch": "main",
+   "commit": "7d53476aab",
+   "started_at": "2026-10-29T03:09:13Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0049",
+   "branch": "main",
+   "commit": "82dde7fa3c",
+   "started_at": "2026-10-29T04:13:50Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0050",
+   "branch": "main",
+   "commit": "2170fd5bbd",
+   "started_at": "2026-10-29T05:18:27Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0051",
+   "branch": "main",
+   "commit": "a4510ef1db",
+   "started_at": "2026-10-29T06:23:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0052",
+   "branch": "main",
+   "commit": "4733cd457b",
+   "started_at": "2026-10-29T07:27:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0053",
+   "branch": "main",
+   "commit": "51475b80ed",
+   "started_at": "2026-10-29T08:32:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0054",
+   "branch": "main",
+   "commit": "e470a797d7",
+   "started_at": "2026-10-29T09:36:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0055",
+   "branch": "main",
+   "commit": "1ffa3a2716",
+   "started_at": "2026-10-29T10:41:32Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_payment_retry_a",
+    "test_payment_retry_b"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0056",
+   "branch": "main",
+   "commit": "07e57dd7bf",
+   "started_at": "2026-10-29T11:46:09Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0057",
+   "branch": "main",
+   "commit": "22cfb4e472",
+   "started_at": "2026-10-29T12:50:46Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0058",
+   "branch": "main",
+   "commit": "4971338367",
+   "started_at": "2026-10-29T13:55:23Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0059",
+   "branch": "main",
+   "commit": "17540d06ec",
+   "started_at": "2026-10-29T15:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0060",
+   "branch": "main",
+   "commit": "96a7e75330",
+   "started_at": "2026-10-29T16:04:36Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0061",
+   "branch": "main",
+   "commit": "30d32093ef",
+   "started_at": "2026-10-29T17:09:13Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0062",
+   "branch": "main",
+   "commit": "29ee916814",
+   "started_at": "2026-10-29T18:13:50Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_session_refresh_a",
+    "test_session_refresh_b"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0063",
+   "branch": "main",
+   "commit": "a348662a1e",
+   "started_at": "2026-10-29T19:18:27Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0064",
+   "branch": "main",
+   "commit": "ad63b9ca7b",
+   "started_at": "2026-10-29T20:23:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0065",
+   "branch": "main",
+   "commit": "5ec23e4265",
+   "started_at": "2026-10-29T21:27:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0066",
+   "branch": "main",
+   "commit": "1a7ecd8d3d",
+   "started_at": "2026-10-29T22:32:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0067",
+   "branch": "main",
+   "commit": "35f843ec5a",
+   "started_at": "2026-10-29T23:36:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0068",
+   "branch": "main",
+   "commit": "b661955119",
+   "started_at": "2026-10-30T00:41:32Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0069",
+   "branch": "main",
+   "commit": "5b592d7ea4",
+   "started_at": "2026-10-30T01:46:09Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0070",
+   "branch": "main",
+   "commit": "b2dc7c9579",
+   "started_at": "2026-10-30T02:50:46Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0071",
+   "branch": "main",
+   "commit": "5a652cd985",
+   "started_at": "2026-10-30T03:55:23Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0072",
+   "branch": "main",
+   "commit": "18433beb88",
+   "started_at": "2026-10-30T05:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0073",
+   "branch": "main",
+   "commit": "0878749948",
+   "started_at": "2026-10-30T06:04:36Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_inventory_hold_a",
+    "test_inventory_hold_b"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0074",
+   "branch": "main",
+   "commit": "38bd7b9382",
+   "started_at": "2026-10-30T07:09:13Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0075",
+   "branch": "main",
+   "commit": "8f7c1af3b3",
+   "started_at": "2026-10-30T08:13:50Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 83,
+    "failed": 1,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0076",
+   "branch": "main",
+   "commit": "92029c56f8",
+   "started_at": "2026-10-30T09:18:27Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0077",
+   "branch": "main",
+   "commit": "66edbdc17b",
+   "started_at": "2026-10-30T10:23:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0078",
+   "branch": "main",
+   "commit": "b3a5ad38bd",
+   "started_at": "2026-10-30T11:27:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0079",
+   "branch": "main",
+   "commit": "1130dad3d6",
+   "started_at": "2026-10-30T12:32:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0080",
+   "branch": "main",
+   "commit": "b1fc387dba",
+   "started_at": "2026-10-30T13:36:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0081",
+   "branch": "main",
+   "commit": "ee45621c32",
+   "started_at": "2026-10-30T14:41:32Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0082",
+   "branch": "main",
+   "commit": "01237b8e6c",
+   "started_at": "2026-10-30T15:46:09Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0083",
+   "branch": "main",
+   "commit": "86968d9440",
+   "started_at": "2026-10-30T16:50:46Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0084",
+   "branch": "main",
+   "commit": "8adaadc426",
+   "started_at": "2026-10-30T17:55:23Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0085",
+   "branch": "main",
+   "commit": "63755ac269",
+   "started_at": "2026-10-30T19:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0086",
+   "branch": "main",
+   "commit": "cebd0abdc9",
+   "started_at": "2026-10-30T20:04:36Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0087",
+   "branch": "main",
+   "commit": "584acff554",
+   "started_at": "2026-10-30T21:09:13Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0088",
+   "branch": "main",
+   "commit": "6a6b7751b0",
+   "started_at": "2026-10-30T22:13:50Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0089",
+   "branch": "main",
+   "commit": "1092588509",
+   "started_at": "2026-10-30T23:18:27Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0090",
+   "branch": "main",
+   "commit": "d697b4ffda",
+   "started_at": "2026-10-31T00:23:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0091",
+   "branch": "main",
+   "commit": "7e226df273",
+   "started_at": "2026-10-31T01:27:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0092",
+   "branch": "main",
+   "commit": "f169a570a4",
+   "started_at": "2026-10-31T02:32:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0093",
+   "branch": "main",
+   "commit": "cc05ae41a4",
+   "started_at": "2026-10-31T03:36:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0094",
+   "branch": "main",
+   "commit": "eadc245c2b",
+   "started_at": "2026-10-31T04:41:32Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0095",
+   "branch": "main",
+   "commit": "0a20c1fbd7",
+   "started_at": "2026-10-31T05:46:09Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0096",
+   "branch": "main",
+   "commit": "50f67d6c6f",
+   "started_at": "2026-10-31T06:50:46Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0097",
+   "branch": "main",
+   "commit": "583dc741c2",
+   "started_at": "2026-10-31T07:55:23Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0098",
+   "branch": "main",
+   "commit": "c5a2d8eb3c",
+   "started_at": "2026-10-31T09:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0099",
+   "branch": "main",
+   "commit": "040064f5a2",
+   "started_at": "2026-10-31T10:04:36Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0100",
+   "branch": "main",
+   "commit": "9e31c00da5",
+   "started_at": "2026-10-31T11:09:13Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0101",
+   "branch": "main",
+   "commit": "64352ec6dd",
+   "started_at": "2026-10-31T12:13:50Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0102",
+   "branch": "main",
+   "commit": "c73d9d6a30",
+   "started_at": "2026-10-31T13:18:27Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0103",
+   "branch": "main",
+   "commit": "6ce4725714",
+   "started_at": "2026-10-31T14:23:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_shipping_quote_a",
+    "test_shipping_quote_b"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0104",
+   "branch": "main",
+   "commit": "1f39dcdafc",
+   "started_at": "2026-10-31T15:27:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0105",
+   "branch": "main",
+   "commit": "e8eab675fd",
+   "started_at": "2026-10-31T16:32:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0106",
+   "branch": "main",
+   "commit": "6d77232e72",
+   "started_at": "2026-10-31T17:36:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_gift_card_a",
+    "test_gift_card_b"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0107",
+   "branch": "main",
+   "commit": "2ed73a85b2",
+   "started_at": "2026-10-31T18:41:32Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0108",
+   "branch": "main",
+   "commit": "a931bb2bca",
+   "started_at": "2026-10-31T19:46:09Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0109",
+   "branch": "main",
+   "commit": "12dcaffb7e",
+   "started_at": "2026-10-31T20:50:46Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0110",
+   "branch": "main",
+   "commit": "d0d4ef54af",
+   "started_at": "2026-10-31T21:55:23Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0111",
+   "branch": "main",
+   "commit": "1a540a5489",
+   "started_at": "2026-10-31T23:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0112",
+   "branch": "main",
+   "commit": "e547ea618d",
+   "started_at": "2026-11-01T00:04:36Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 83,
+    "failed": 1,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0113",
+   "branch": "main",
+   "commit": "1d1c8eb2c4",
+   "started_at": "2026-11-01T01:09:13Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0114",
+   "branch": "main",
+   "commit": "1689f1db01",
+   "started_at": "2026-11-01T02:13:50Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0115",
+   "branch": "main",
+   "commit": "6299b4d050",
+   "started_at": "2026-11-01T03:18:27Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0116",
+   "branch": "main",
+   "commit": "18b48834f2",
+   "started_at": "2026-11-01T04:23:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0117",
+   "branch": "main",
+   "commit": "227d0cf193",
+   "started_at": "2026-11-01T05:27:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_receipt_email_a",
+    "test_receipt_email_b"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0118",
+   "branch": "main",
+   "commit": "cfd644215c",
+   "started_at": "2026-11-01T06:32:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0119",
+   "branch": "main",
+   "commit": "bf6d5f4fcc",
+   "started_at": "2026-11-01T07:36:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0120",
+   "branch": "main",
+   "commit": "30b78c93c7",
+   "started_at": "2026-11-01T08:41:32Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0121",
+   "branch": "main",
+   "commit": "bfbf975610",
+   "started_at": "2026-11-01T09:46:09Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0122",
+   "branch": "main",
+   "commit": "7b35fc9882",
+   "started_at": "2026-11-01T10:50:46Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0123",
+   "branch": "main",
+   "commit": "183e73053d",
+   "started_at": "2026-11-01T11:55:23Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0124",
+   "branch": "main",
+   "commit": "0a968f116d",
+   "started_at": "2026-11-01T13:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0125",
+   "branch": "main",
+   "commit": "3f27481131",
+   "started_at": "2026-11-01T14:04:36Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_order_status_a",
+    "test_order_status_b"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0126",
+   "branch": "main",
+   "commit": "388f95dcb0",
+   "started_at": "2026-11-01T15:09:13Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0127",
+   "branch": "main",
+   "commit": "65419e94e4",
+   "started_at": "2026-11-01T16:13:50Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0128",
+   "branch": "main",
+   "commit": "6aabc33f50",
+   "started_at": "2026-11-01T17:18:27Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0129",
+   "branch": "main",
+   "commit": "e840b56090",
+   "started_at": "2026-11-01T18:23:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0130",
+   "branch": "main",
+   "commit": "9bdc615f3e",
+   "started_at": "2026-11-01T19:27:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0131",
+   "branch": "main",
+   "commit": "e9c8621249",
+   "started_at": "2026-11-01T20:32:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0132",
+   "branch": "main",
+   "commit": "c8e23a8b9a",
+   "started_at": "2026-11-01T21:36:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0133",
+   "branch": "main",
+   "commit": "c25bf497ff",
+   "started_at": "2026-11-01T22:41:32Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0134",
+   "branch": "main",
+   "commit": "c193dd6c62",
+   "started_at": "2026-11-01T23:46:09Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0135",
+   "branch": "main",
+   "commit": "19d9506cb5",
+   "started_at": "2026-11-02T00:50:46Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_refund_flow_a",
+    "test_refund_flow_b"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0136",
+   "branch": "main",
+   "commit": "7b747bb6ed",
+   "started_at": "2026-11-02T01:55:23Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0137",
+   "branch": "main",
+   "commit": "367d9ec87c",
+   "started_at": "2026-11-02T03:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0138",
+   "branch": "main",
+   "commit": "9472c7bc0c",
+   "started_at": "2026-11-02T04:04:36Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0139",
+   "branch": "main",
+   "commit": "ad3a0675a0",
+   "started_at": "2026-11-02T05:09:13Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0140",
+   "branch": "main",
+   "commit": "0cb57705b3",
+   "started_at": "2026-11-02T06:13:50Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0141",
+   "branch": "main",
+   "commit": "f98710643e",
+   "started_at": "2026-11-02T07:18:27Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0142",
+   "branch": "main",
+   "commit": "5324c7d5fb",
+   "started_at": "2026-11-02T08:23:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0143",
+   "branch": "main",
+   "commit": "783a24a847",
+   "started_at": "2026-11-02T09:27:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0144",
+   "branch": "main",
+   "commit": "2039e2439e",
+   "started_at": "2026-11-02T10:32:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0145",
+   "branch": "main",
+   "commit": "8acd1b312e",
+   "started_at": "2026-11-02T11:36:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0146",
+   "branch": "main",
+   "commit": "eb4083110b",
+   "started_at": "2026-11-02T12:41:32Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0147",
+   "branch": "main",
+   "commit": "b6a0ee7e2b",
+   "started_at": "2026-11-02T13:46:09Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0148",
+   "branch": "main",
+   "commit": "3ccb8f48fa",
+   "started_at": "2026-11-02T14:50:46Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0149",
+   "branch": "main",
+   "commit": "6e9f77c2fd",
+   "started_at": "2026-11-02T15:55:23Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 83,
+    "failed": 1,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0150",
+   "branch": "main",
+   "commit": "64b610c53b",
+   "started_at": "2026-11-02T17:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0151",
+   "branch": "main",
+   "commit": "57f2850f96",
+   "started_at": "2026-11-02T18:04:36Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0152",
+   "branch": "main",
+   "commit": "4c85221306",
+   "started_at": "2026-11-02T19:09:13Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0153",
+   "branch": "main",
+   "commit": "3fdc88f81c",
+   "started_at": "2026-11-02T20:13:50Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0154",
+   "branch": "main",
+   "commit": "64f9697e20",
+   "started_at": "2026-11-02T21:18:27Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0155",
+   "branch": "main",
+   "commit": "1fe0cb9108",
+   "started_at": "2026-11-02T22:23:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0156",
+   "branch": "main",
+   "commit": "4185ba7626",
+   "started_at": "2026-11-02T23:27:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0157",
+   "branch": "main",
+   "commit": "170af2ac38",
+   "started_at": "2026-11-03T00:32:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0158",
+   "branch": "main",
+   "commit": "fb2b406788",
+   "started_at": "2026-11-03T01:36:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0159",
+   "branch": "main",
+   "commit": "ab1f44a00b",
+   "started_at": "2026-11-03T02:41:32Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0160",
+   "branch": "main",
+   "commit": "f4ce0c286c",
+   "started_at": "2026-11-03T03:46:09Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0161",
+   "branch": "main",
+   "commit": "ca109b4bbf",
+   "started_at": "2026-11-03T04:50:46Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0162",
+   "branch": "main",
+   "commit": "869cc8482e",
+   "started_at": "2026-11-03T05:55:23Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_currency_format_a",
+    "test_currency_format_b"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0163",
+   "branch": "main",
+   "commit": "9476e1d838",
+   "started_at": "2026-11-03T07:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0164",
+   "branch": "main",
+   "commit": "73f9523fc8",
+   "started_at": "2026-11-03T08:04:36Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0165",
+   "branch": "main",
+   "commit": "461931c836",
+   "started_at": "2026-11-03T09:09:13Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0166",
+   "branch": "main",
+   "commit": "f1f7e99490",
+   "started_at": "2026-11-03T10:13:50Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0167",
+   "branch": "main",
+   "commit": "003d505302",
+   "started_at": "2026-11-03T11:18:27Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0168",
+   "branch": "main",
+   "commit": "69b9fef2bc",
+   "started_at": "2026-11-03T12:23:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_wishlist_sync_a",
+    "test_wishlist_sync_b"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0169",
+   "branch": "main",
+   "commit": "5230766faa",
+   "started_at": "2026-11-03T13:27:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0170",
+   "branch": "main",
+   "commit": "fb87654f42",
+   "started_at": "2026-11-03T14:32:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_coupon_expiry_a",
+    "test_coupon_expiry_b"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0171",
+   "branch": "main",
+   "commit": "2661fb69b6",
+   "started_at": "2026-11-03T15:36:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0172",
+   "branch": "main",
+   "commit": "8f7aefdf8f",
+   "started_at": "2026-11-03T16:41:32Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0173",
+   "branch": "main",
+   "commit": "925b9fb669",
+   "started_at": "2026-11-03T17:46:09Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0174",
+   "branch": "main",
+   "commit": "234bb3c44d",
+   "started_at": "2026-11-03T18:50:46Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0175",
+   "branch": "main",
+   "commit": "2216e6699a",
+   "started_at": "2026-11-03T19:55:23Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0176",
+   "branch": "main",
+   "commit": "3c2eef8732",
+   "started_at": "2026-11-03T21:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0177",
+   "branch": "main",
+   "commit": "3e09827ccc",
+   "started_at": "2026-11-03T22:04:36Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0178",
+   "branch": "main",
+   "commit": "a257ddf1f0",
+   "started_at": "2026-11-03T23:09:13Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0179",
+   "branch": "main",
+   "commit": "60ba7d44f2",
+   "started_at": "2026-11-04T00:13:50Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0180",
+   "branch": "main",
+   "commit": "33e1068687",
+   "started_at": "2026-11-04T01:18:27Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0181",
+   "branch": "main",
+   "commit": "bae3e437ac",
+   "started_at": "2026-11-04T02:23:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_search_suggest_a",
+    "test_search_suggest_b"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0182",
+   "branch": "main",
+   "commit": "441caa2c75",
+   "started_at": "2026-11-04T03:27:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0183",
+   "branch": "main",
+   "commit": "895a3824b0",
+   "started_at": "2026-11-04T04:32:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0184",
+   "branch": "main",
+   "commit": "1eacfc8bd9",
+   "started_at": "2026-11-04T05:36:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0185",
+   "branch": "main",
+   "commit": "e41fb2ad7f",
+   "started_at": "2026-11-04T06:41:32Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0186",
+   "branch": "main",
+   "commit": "50fad82daf",
+   "started_at": "2026-11-04T07:46:09Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 83,
+    "failed": 1,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0187",
+   "branch": "main",
+   "commit": "3c6b73962f",
+   "started_at": "2026-11-04T08:50:46Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0188",
+   "branch": "main",
+   "commit": "4305e9d724",
+   "started_at": "2026-11-04T09:55:23Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0189",
+   "branch": "main",
+   "commit": "af7c724be7",
+   "started_at": "2026-11-04T11:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0190",
+   "branch": "main",
+   "commit": "ecd8f79a95",
+   "started_at": "2026-11-04T12:04:36Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0191",
+   "branch": "main",
+   "commit": "4d41c4352b",
+   "started_at": "2026-11-04T13:09:13Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0192",
+   "branch": "main",
+   "commit": "ca9f13672e",
+   "started_at": "2026-11-04T14:13:50Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0193",
+   "branch": "main",
+   "commit": "cd5b338afb",
+   "started_at": "2026-11-04T15:18:27Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0194",
+   "branch": "main",
+   "commit": "feef5791b2",
+   "started_at": "2026-11-04T16:23:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0195",
+   "branch": "main",
+   "commit": "535171ea74",
+   "started_at": "2026-11-04T17:27:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0196",
+   "branch": "main",
+   "commit": "f6fdc2e43d",
+   "started_at": "2026-11-04T18:32:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0197",
+   "branch": "main",
+   "commit": "51d55618b3",
+   "started_at": "2026-11-04T19:36:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0198",
+   "branch": "main",
+   "commit": "1cea4a93aa",
+   "started_at": "2026-11-04T20:41:32Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0199",
+   "branch": "main",
+   "commit": "d77e16383d",
+   "started_at": "2026-11-04T21:46:09Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0200",
+   "branch": "main",
+   "commit": "0299bc045d",
+   "started_at": "2026-11-04T22:50:46Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0201",
+   "branch": "main",
+   "commit": "93e1e90dd8",
+   "started_at": "2026-11-04T23:55:23Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0202",
+   "branch": "main",
+   "commit": "302fadbad1",
+   "started_at": "2026-11-05T01:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0203",
+   "branch": "main",
+   "commit": "b620d98368",
+   "started_at": "2026-11-05T02:04:36Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0204",
+   "branch": "main",
+   "commit": "9d1ccafd32",
+   "started_at": "2026-11-05T03:09:13Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0205",
+   "branch": "main",
+   "commit": "c2d0fb10c4",
+   "started_at": "2026-11-05T04:13:50Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0206",
+   "branch": "main",
+   "commit": "95deb78d2b",
+   "started_at": "2026-11-05T05:18:27Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0207",
+   "branch": "main",
+   "commit": "89ba97dbe0",
+   "started_at": "2026-11-05T06:23:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0208",
+   "branch": "main",
+   "commit": "a7b2b6b99b",
+   "started_at": "2026-11-05T07:27:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0209",
+   "branch": "main",
+   "commit": "51e9c20257",
+   "started_at": "2026-11-05T08:32:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0210",
+   "branch": "main",
+   "commit": "1fe99fb48a",
+   "started_at": "2026-11-05T09:36:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0211",
+   "branch": "main",
+   "commit": "129a622f20",
+   "started_at": "2026-11-05T10:41:32Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0212",
+   "branch": "main",
+   "commit": "0a0ad87b63",
+   "started_at": "2026-11-05T11:46:09Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0213",
+   "branch": "main",
+   "commit": "2bd60965a8",
+   "started_at": "2026-11-05T12:50:46Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0214",
+   "branch": "main",
+   "commit": "8a4219652e",
+   "started_at": "2026-11-05T13:55:23Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0215",
+   "branch": "main",
+   "commit": "34b15d0222",
+   "started_at": "2026-11-05T15:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0216",
+   "branch": "main",
+   "commit": "ae4f4e5f4c",
+   "started_at": "2026-11-05T16:04:36Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0217",
+   "branch": "main",
+   "commit": "a724cbcbea",
+   "started_at": "2026-11-05T17:09:13Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0218",
+   "branch": "main",
+   "commit": "136743e751",
+   "started_at": "2026-11-05T18:13:50Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0219",
+   "branch": "main",
+   "commit": "09316a183d",
+   "started_at": "2026-11-05T19:18:27Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0220",
+   "branch": "main",
+   "commit": "47de081cce",
+   "started_at": "2026-11-05T20:23:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0221",
+   "branch": "main",
+   "commit": "5e8646d359",
+   "started_at": "2026-11-05T21:27:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0222",
+   "branch": "main",
+   "commit": "c7d03694f0",
+   "started_at": "2026-11-05T22:32:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_login_mfa_a",
+    "test_login_mfa_b"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0223",
+   "branch": "main",
+   "commit": "91ed6ff35b",
+   "started_at": "2026-11-05T23:36:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 83,
+    "failed": 1,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0224",
+   "branch": "main",
+   "commit": "3fd076fa71",
+   "started_at": "2026-11-06T00:41:32Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_basket_merge_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0225",
+   "branch": "main",
+   "commit": "1ad1d49eb1",
+   "started_at": "2026-11-06T01:46:09Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0226",
+   "branch": "main",
+   "commit": "23c31d7af9",
+   "started_at": "2026-11-06T02:50:46Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0227",
+   "branch": "main",
+   "commit": "0bd5cafb7e",
+   "started_at": "2026-11-06T03:55:23Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0228",
+   "branch": "main",
+   "commit": "86afb411d2",
+   "started_at": "2026-11-06T05:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0229",
+   "branch": "main",
+   "commit": "2fd7254ae1",
+   "started_at": "2026-11-06T06:04:36Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0230",
+   "branch": "main",
+   "commit": "e8798ebba2",
+   "started_at": "2026-11-06T07:09:13Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0231",
+   "branch": "main",
+   "commit": "7cc857c268",
+   "started_at": "2026-11-06T08:13:50Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0232",
+   "branch": "main",
+   "commit": "bb0635a429",
+   "started_at": "2026-11-06T09:18:27Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0233",
+   "branch": "main",
+   "commit": "47de3f7ad7",
+   "started_at": "2026-11-06T10:23:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0234",
+   "branch": "main",
+   "commit": "e06107a9bf",
+   "started_at": "2026-11-06T11:27:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0235",
+   "branch": "main",
+   "commit": "7d44bddbe0",
+   "started_at": "2026-11-06T12:32:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0236",
+   "branch": "main",
+   "commit": "ec0b9cc567",
+   "started_at": "2026-11-06T13:36:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0237",
+   "branch": "main",
+   "commit": "582cbda611",
+   "started_at": "2026-11-06T14:41:32Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0238",
+   "branch": "main",
+   "commit": "be752d694f",
+   "started_at": "2026-11-06T15:46:09Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0239",
+   "branch": "main",
+   "commit": "794bb457a0",
+   "started_at": "2026-11-06T16:50:46Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0240",
+   "branch": "main",
+   "commit": "0e65b6c0a5",
+   "started_at": "2026-11-06T17:55:23Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0241",
+   "branch": "main",
+   "commit": "b06eccf1b3",
+   "started_at": "2026-11-06T19:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0242",
+   "branch": "main",
+   "commit": "a5b08b1344",
+   "started_at": "2026-11-06T20:04:36Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0243",
+   "branch": "main",
+   "commit": "48e399d62f",
+   "started_at": "2026-11-06T21:09:13Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0244",
+   "branch": "main",
+   "commit": "86b16f929a",
+   "started_at": "2026-11-06T22:13:50Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0245",
+   "branch": "main",
+   "commit": "d183eaf6bb",
+   "started_at": "2026-11-06T23:18:27Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0246",
+   "branch": "main",
+   "commit": "34b360b67a",
+   "started_at": "2026-11-07T00:23:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0247",
+   "branch": "main",
+   "commit": "cfd24f7ab8",
+   "started_at": "2026-11-07T01:27:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0248",
+   "branch": "main",
+   "commit": "fc1dfa34ed",
+   "started_at": "2026-11-07T02:32:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0249",
+   "branch": "main",
+   "commit": "b36b880714",
+   "started_at": "2026-11-07T03:36:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0250",
+   "branch": "main",
+   "commit": "111ec90d89",
+   "started_at": "2026-11-07T04:41:32Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0251",
+   "branch": "main",
+   "commit": "f9e5014085",
+   "started_at": "2026-11-07T05:46:09Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0252",
+   "branch": "main",
+   "commit": "81493a919b",
+   "started_at": "2026-11-07T06:50:46Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0253",
+   "branch": "main",
+   "commit": "466ee34ce6",
+   "started_at": "2026-11-07T07:55:23Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0254",
+   "branch": "main",
+   "commit": "d4be16face",
+   "started_at": "2026-11-07T09:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0255",
+   "branch": "main",
+   "commit": "b6742f8c45",
+   "started_at": "2026-11-07T10:04:36Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0256",
+   "branch": "main",
+   "commit": "3689f4a524",
+   "started_at": "2026-11-07T11:09:13Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0257",
+   "branch": "main",
+   "commit": "18a3195fe0",
+   "started_at": "2026-11-07T12:13:50Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0258",
+   "branch": "main",
+   "commit": "bc7092011f",
+   "started_at": "2026-11-07T13:18:27Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0259",
+   "branch": "main",
+   "commit": "2601cea635",
+   "started_at": "2026-11-07T14:23:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0260",
+   "branch": "main",
+   "commit": "7def2aa231",
+   "started_at": "2026-11-07T15:27:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_basket_merge_b"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 83,
+    "failed": 1,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0261",
+   "branch": "main",
+   "commit": "2c16211df0",
+   "started_at": "2026-11-07T16:32:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0262",
+   "branch": "main",
+   "commit": "142cf32f61",
+   "started_at": "2026-11-07T17:36:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0263",
+   "branch": "main",
+   "commit": "f279d04836",
+   "started_at": "2026-11-07T18:41:32Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0264",
+   "branch": "main",
+   "commit": "6d499ec94b",
+   "started_at": "2026-11-07T19:46:09Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0265",
+   "branch": "main",
+   "commit": "c86eb8ddad",
+   "started_at": "2026-11-07T20:50:46Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0266",
+   "branch": "main",
+   "commit": "ec644322fb",
+   "started_at": "2026-11-07T21:55:23Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_price_rounding_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0267",
+   "branch": "main",
+   "commit": "085437be75",
+   "started_at": "2026-11-07T23:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0268",
+   "branch": "main",
+   "commit": "6c763bd340",
+   "started_at": "2026-11-08T00:04:36Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0269",
+   "branch": "main",
+   "commit": "dc36221f1b",
+   "started_at": "2026-11-08T01:09:13Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0270",
+   "branch": "main",
+   "commit": "cf6c363415",
+   "started_at": "2026-11-08T02:13:50Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0271",
+   "branch": "main",
+   "commit": "84bd7127db",
+   "started_at": "2026-11-08T03:18:27Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0272",
+   "branch": "main",
+   "commit": "62048fc554",
+   "started_at": "2026-11-08T04:23:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0273",
+   "branch": "main",
+   "commit": "5e8874c850",
+   "started_at": "2026-11-08T05:27:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0274",
+   "branch": "main",
+   "commit": "ee0606c15b",
+   "started_at": "2026-11-08T06:32:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0275",
+   "branch": "main",
+   "commit": "ee05ed3617",
+   "started_at": "2026-11-08T07:36:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0276",
+   "branch": "main",
+   "commit": "d1b69341c2",
+   "started_at": "2026-11-08T08:41:32Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0277",
+   "branch": "main",
+   "commit": "8e15ff1f65",
+   "started_at": "2026-11-08T09:46:09Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0278",
+   "branch": "main",
+   "commit": "cf4fc44377",
+   "started_at": "2026-11-08T10:50:46Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0279",
+   "branch": "main",
+   "commit": "e3d44d6de7",
+   "started_at": "2026-11-08T11:55:23Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0280",
+   "branch": "main",
+   "commit": "6b0a019c19",
+   "started_at": "2026-11-08T13:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0281",
+   "branch": "main",
+   "commit": "b9fd450830",
+   "started_at": "2026-11-08T14:04:36Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0282",
+   "branch": "main",
+   "commit": "e8c4f5e010",
+   "started_at": "2026-11-08T15:09:13Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0283",
+   "branch": "main",
+   "commit": "05f32cf153",
+   "started_at": "2026-11-08T16:13:50Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0284",
+   "branch": "main",
+   "commit": "486527e11e",
+   "started_at": "2026-11-08T17:18:27Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0285",
+   "branch": "main",
+   "commit": "94d4d1df26",
+   "started_at": "2026-11-08T18:23:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0286",
+   "branch": "main",
+   "commit": "61819ba261",
+   "started_at": "2026-11-08T19:27:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_price_rounding_b"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0287",
+   "branch": "main",
+   "commit": "6e2b902b5c",
+   "started_at": "2026-11-08T20:32:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0288",
+   "branch": "main",
+   "commit": "2148f62f79",
+   "started_at": "2026-11-08T21:36:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0289",
+   "branch": "main",
+   "commit": "aa2f2472ba",
+   "started_at": "2026-11-08T22:41:32Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0290",
+   "branch": "main",
+   "commit": "e03a680c0d",
+   "started_at": "2026-11-08T23:46:09Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0291",
+   "branch": "main",
+   "commit": "91331175fc",
+   "started_at": "2026-11-09T00:50:46Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0292",
+   "branch": "main",
+   "commit": "5bfa8934fb",
+   "started_at": "2026-11-09T01:55:23Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0293",
+   "branch": "main",
+   "commit": "d47d3a05f6",
+   "started_at": "2026-11-09T03:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0294",
+   "branch": "main",
+   "commit": "f761ad8020",
+   "started_at": "2026-11-09T04:04:36Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0295",
+   "branch": "main",
+   "commit": "0fa494a40e",
+   "started_at": "2026-11-09T05:09:13Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0296",
+   "branch": "main",
+   "commit": "353b874db9",
+   "started_at": "2026-11-09T06:13:50Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0297",
+   "branch": "main",
+   "commit": "0ff5a4268a",
+   "started_at": "2026-11-09T07:18:27Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 83,
+    "failed": 1,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0298",
+   "branch": "main",
+   "commit": "04f58d9f63",
+   "started_at": "2026-11-09T08:23:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0299",
+   "branch": "main",
+   "commit": "6acc60bf47",
+   "started_at": "2026-11-09T09:27:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0300",
+   "branch": "main",
+   "commit": "ef7ac02430",
+   "started_at": "2026-11-09T10:32:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0301",
+   "branch": "main",
+   "commit": "fc2c59264f",
+   "started_at": "2026-11-09T11:36:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0302",
+   "branch": "main",
+   "commit": "bcbb0f18c2",
+   "started_at": "2026-11-09T12:41:32Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_stock_alert_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0303",
+   "branch": "main",
+   "commit": "1ff21b0715",
+   "started_at": "2026-11-09T13:46:09Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_stock_alert_b"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0304",
+   "branch": "main",
+   "commit": "f04f8a7b04",
+   "started_at": "2026-11-09T14:50:46Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0305",
+   "branch": "main",
+   "commit": "b408be65d1",
+   "started_at": "2026-11-09T15:55:23Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0306",
+   "branch": "main",
+   "commit": "204daaa8de",
+   "started_at": "2026-11-09T17:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0307",
+   "branch": "main",
+   "commit": "538b1917fe",
+   "started_at": "2026-11-09T18:04:36Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0308",
+   "branch": "main",
+   "commit": "77ec22a197",
+   "started_at": "2026-11-09T19:09:13Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0309",
+   "branch": "main",
+   "commit": "0b28661c24",
+   "started_at": "2026-11-09T20:13:50Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0310",
+   "branch": "main",
+   "commit": "0389fa98e5",
+   "started_at": "2026-11-09T21:18:27Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0311",
+   "branch": "main",
+   "commit": "fceaaa5fcd",
+   "started_at": "2026-11-09T22:23:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "run-0312",
+   "branch": "main",
+   "commit": "2dcf416fd4",
+   "started_at": "2026-11-09T23:27:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_checkout_timeout_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0001",
+   "branch": "main",
+   "commit": "d973140f93",
+   "started_at": "2026-10-13T00:34:45Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 83,
+    "failed": 1,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0002",
+   "branch": "main",
+   "commit": "b6b1f121ef",
+   "started_at": "2026-10-13T01:44:16Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0003",
+   "branch": "main",
+   "commit": "2386bcf749",
+   "started_at": "2026-10-13T02:53:47Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0004",
+   "branch": "main",
+   "commit": "0c29156757",
+   "started_at": "2026-10-13T04:03:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0005",
+   "branch": "main",
+   "commit": "6b65534ccf",
+   "started_at": "2026-10-13T05:12:49Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0006",
+   "branch": "main",
+   "commit": "edfce2ab67",
+   "started_at": "2026-10-13T06:22:20Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0007",
+   "branch": "main",
+   "commit": "e2485e3035",
+   "started_at": "2026-10-13T07:31:51Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0008",
+   "branch": "main",
+   "commit": "3dc6178b65",
+   "started_at": "2026-10-13T08:41:22Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0009",
+   "branch": "main",
+   "commit": "acafd75e31",
+   "started_at": "2026-10-13T09:50:53Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0010",
+   "branch": "main",
+   "commit": "bb3d91ecab",
+   "started_at": "2026-10-13T11:00:24Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0011",
+   "branch": "main",
+   "commit": "7abadc3c87",
+   "started_at": "2026-10-13T12:09:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0012",
+   "branch": "main",
+   "commit": "0829bd4e82",
+   "started_at": "2026-10-13T13:19:26Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0013",
+   "branch": "main",
+   "commit": "152191a215",
+   "started_at": "2026-10-13T14:28:57Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0014",
+   "branch": "main",
+   "commit": "f49de32fc9",
+   "started_at": "2026-10-13T15:38:28Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0015",
+   "branch": "main",
+   "commit": "1835478b96",
+   "started_at": "2026-10-13T16:48:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0016",
+   "branch": "main",
+   "commit": "a4446b73b8",
+   "started_at": "2026-10-13T17:57:31Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0017",
+   "branch": "main",
+   "commit": "4df0ded75e",
+   "started_at": "2026-10-13T19:07:02Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0018",
+   "branch": "main",
+   "commit": "2b32ce79da",
+   "started_at": "2026-10-13T20:16:33Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0019",
+   "branch": "main",
+   "commit": "ca27b5d428",
+   "started_at": "2026-10-13T21:26:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0020",
+   "branch": "main",
+   "commit": "4d9737f31d",
+   "started_at": "2026-10-13T22:35:35Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0021",
+   "branch": "main",
+   "commit": "9fff112d70",
+   "started_at": "2026-10-13T23:45:06Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0022",
+   "branch": "main",
+   "commit": "6de5b74cd1",
+   "started_at": "2026-10-14T00:54:37Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0023",
+   "branch": "main",
+   "commit": "e79f88fe51",
+   "started_at": "2026-10-14T02:04:08Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0024",
+   "branch": "main",
+   "commit": "a23a12168e",
+   "started_at": "2026-10-14T03:13:39Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0025",
+   "branch": "main",
+   "commit": "2bf9821009",
+   "started_at": "2026-10-14T04:23:10Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0026",
+   "branch": "main",
+   "commit": "d7ad320b1e",
+   "started_at": "2026-10-14T05:32:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0027",
+   "branch": "main",
+   "commit": "4ab36620f3",
+   "started_at": "2026-10-14T06:42:12Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0028",
+   "branch": "main",
+   "commit": "e4f8da90c5",
+   "started_at": "2026-10-14T07:51:43Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0029",
+   "branch": "main",
+   "commit": "8d4cc330a3",
+   "started_at": "2026-10-14T09:01:14Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0030",
+   "branch": "main",
+   "commit": "0bf8664507",
+   "started_at": "2026-10-14T10:10:45Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0031",
+   "branch": "main",
+   "commit": "d9601413ef",
+   "started_at": "2026-10-14T11:20:16Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0032",
+   "branch": "main",
+   "commit": "8a8aeebd35",
+   "started_at": "2026-10-14T12:29:47Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0033",
+   "branch": "main",
+   "commit": "e9d04588eb",
+   "started_at": "2026-10-14T13:39:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0034",
+   "branch": "main",
+   "commit": "c4a33c2cc9",
+   "started_at": "2026-10-14T14:48:49Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0035",
+   "branch": "main",
+   "commit": "4fc9228dac",
+   "started_at": "2026-10-14T15:58:20Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0036",
+   "branch": "main",
+   "commit": "93d2924b02",
+   "started_at": "2026-10-14T17:07:51Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0037",
+   "branch": "main",
+   "commit": "ce81fdf13b",
+   "started_at": "2026-10-14T18:17:22Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0038",
+   "branch": "main",
+   "commit": "92f9315060",
+   "started_at": "2026-10-14T19:26:53Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 83,
+    "failed": 1,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0039",
+   "branch": "main",
+   "commit": "6c7d44b774",
+   "started_at": "2026-10-14T20:36:24Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0040",
+   "branch": "main",
+   "commit": "2b75cb2118",
+   "started_at": "2026-10-14T21:45:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0041",
+   "branch": "main",
+   "commit": "aa3cd7667a",
+   "started_at": "2026-10-14T22:55:26Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0042",
+   "branch": "main",
+   "commit": "4839ab28d4",
+   "started_at": "2026-10-15T00:04:57Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0043",
+   "branch": "main",
+   "commit": "168b57f700",
+   "started_at": "2026-10-15T01:14:28Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0044",
+   "branch": "main",
+   "commit": "a819153f5a",
+   "started_at": "2026-10-15T02:24:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0045",
+   "branch": "main",
+   "commit": "adee803720",
+   "started_at": "2026-10-15T03:33:31Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0046",
+   "branch": "main",
+   "commit": "0992ecd469",
+   "started_at": "2026-10-15T04:43:02Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0047",
+   "branch": "main",
+   "commit": "4f9514fb36",
+   "started_at": "2026-10-15T05:52:33Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0048",
+   "branch": "main",
+   "commit": "970a9a1910",
+   "started_at": "2026-10-15T07:02:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0049",
+   "branch": "main",
+   "commit": "43b750f04c",
+   "started_at": "2026-10-15T08:11:35Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0050",
+   "branch": "main",
+   "commit": "f40cbe3885",
+   "started_at": "2026-10-15T09:21:06Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0051",
+   "branch": "main",
+   "commit": "1c254036c2",
+   "started_at": "2026-10-15T10:30:37Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0052",
+   "branch": "main",
+   "commit": "dde23df7fd",
+   "started_at": "2026-10-15T11:40:08Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0053",
+   "branch": "main",
+   "commit": "29b7a892ab",
+   "started_at": "2026-10-15T12:49:39Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0054",
+   "branch": "main",
+   "commit": "ce91970469",
+   "started_at": "2026-10-15T13:59:10Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0055",
+   "branch": "main",
+   "commit": "a27376bbcc",
+   "started_at": "2026-10-15T15:08:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0056",
+   "branch": "main",
+   "commit": "3670dbac29",
+   "started_at": "2026-10-15T16:18:12Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0057",
+   "branch": "main",
+   "commit": "7f3cb84672",
+   "started_at": "2026-10-15T17:27:43Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0058",
+   "branch": "main",
+   "commit": "5080d1a95e",
+   "started_at": "2026-10-15T18:37:14Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0059",
+   "branch": "main",
+   "commit": "99d65ec565",
+   "started_at": "2026-10-15T19:46:45Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_cart_total_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0060",
+   "branch": "main",
+   "commit": "de5f3adf99",
+   "started_at": "2026-10-15T20:56:16Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0061",
+   "branch": "main",
+   "commit": "afe0b0bad2",
+   "started_at": "2026-10-15T22:05:47Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0062",
+   "branch": "main",
+   "commit": "fd32a13f43",
+   "started_at": "2026-10-15T23:15:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0063",
+   "branch": "main",
+   "commit": "7a23f6e212",
+   "started_at": "2026-10-16T00:24:49Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0064",
+   "branch": "main",
+   "commit": "03170912de",
+   "started_at": "2026-10-16T01:34:20Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0065",
+   "branch": "main",
+   "commit": "8e034dd355",
+   "started_at": "2026-10-16T02:43:51Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0066",
+   "branch": "main",
+   "commit": "ca37f35ec8",
+   "started_at": "2026-10-16T03:53:22Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0067",
+   "branch": "main",
+   "commit": "3370628a25",
+   "started_at": "2026-10-16T05:02:53Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0068",
+   "branch": "main",
+   "commit": "8c46cf47c1",
+   "started_at": "2026-10-16T06:12:24Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0069",
+   "branch": "main",
+   "commit": "bdba7e10f2",
+   "started_at": "2026-10-16T07:21:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0070",
+   "branch": "main",
+   "commit": "cf2232f2dc",
+   "started_at": "2026-10-16T08:31:26Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0071",
+   "branch": "main",
+   "commit": "8f837964c0",
+   "started_at": "2026-10-16T09:40:57Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0072",
+   "branch": "main",
+   "commit": "aa639a139a",
+   "started_at": "2026-10-16T10:50:28Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0073",
+   "branch": "main",
+   "commit": "75579b0fc9",
+   "started_at": "2026-10-16T12:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0074",
+   "branch": "main",
+   "commit": "cba1a76c2d",
+   "started_at": "2026-10-16T13:09:31Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0075",
+   "branch": "main",
+   "commit": "6ccc87eb82",
+   "started_at": "2026-10-16T14:19:02Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 83,
+    "failed": 1,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0076",
+   "branch": "main",
+   "commit": "0e0d628acd",
+   "started_at": "2026-10-16T15:28:33Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0077",
+   "branch": "main",
+   "commit": "6b8c3625cc",
+   "started_at": "2026-10-16T16:38:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0078",
+   "branch": "main",
+   "commit": "ef99605718",
+   "started_at": "2026-10-16T17:47:35Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0079",
+   "branch": "main",
+   "commit": "b2014bb702",
+   "started_at": "2026-10-16T18:57:06Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0080",
+   "branch": "main",
+   "commit": "04a1ba0145",
+   "started_at": "2026-10-16T20:06:37Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0081",
+   "branch": "main",
+   "commit": "f5d7f92f70",
+   "started_at": "2026-10-16T21:16:08Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0082",
+   "branch": "main",
+   "commit": "6dea628b4a",
+   "started_at": "2026-10-16T22:25:39Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0083",
+   "branch": "main",
+   "commit": "577af88bd6",
+   "started_at": "2026-10-16T23:35:10Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0084",
+   "branch": "main",
+   "commit": "79e534b2f5",
+   "started_at": "2026-10-17T00:44:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0085",
+   "branch": "main",
+   "commit": "94f566dca7",
+   "started_at": "2026-10-17T01:54:12Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0086",
+   "branch": "main",
+   "commit": "e0114379cf",
+   "started_at": "2026-10-17T03:03:43Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0087",
+   "branch": "main",
+   "commit": "2d178f6cad",
+   "started_at": "2026-10-17T04:13:14Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0088",
+   "branch": "main",
+   "commit": "e231167fbd",
+   "started_at": "2026-10-17T05:22:45Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0089",
+   "branch": "main",
+   "commit": "1c7b375652",
+   "started_at": "2026-10-17T06:32:16Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0090",
+   "branch": "main",
+   "commit": "a01456a714",
+   "started_at": "2026-10-17T07:41:47Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0091",
+   "branch": "main",
+   "commit": "88639c7725",
+   "started_at": "2026-10-17T08:51:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0092",
+   "branch": "main",
+   "commit": "d9a7b7655e",
+   "started_at": "2026-10-17T10:00:49Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0093",
+   "branch": "main",
+   "commit": "e0ee811d12",
+   "started_at": "2026-10-17T11:10:20Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0094",
+   "branch": "main",
+   "commit": "81dda37575",
+   "started_at": "2026-10-17T12:19:51Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0095",
+   "branch": "main",
+   "commit": "adb55dd5e0",
+   "started_at": "2026-10-17T13:29:22Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0096",
+   "branch": "main",
+   "commit": "87b9df0c94",
+   "started_at": "2026-10-17T14:38:53Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0097",
+   "branch": "main",
+   "commit": "06b238a09a",
+   "started_at": "2026-10-17T15:48:24Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0098",
+   "branch": "main",
+   "commit": "06efdc1355",
+   "started_at": "2026-10-17T16:57:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0099",
+   "branch": "main",
+   "commit": "b512f21ee1",
+   "started_at": "2026-10-17T18:07:26Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0100",
+   "branch": "main",
+   "commit": "0dcd2eba86",
+   "started_at": "2026-10-17T19:16:57Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0101",
+   "branch": "main",
+   "commit": "1c8749bca0",
+   "started_at": "2026-10-17T20:26:28Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0102",
+   "branch": "main",
+   "commit": "34f57075ae",
+   "started_at": "2026-10-17T21:36:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0103",
+   "branch": "main",
+   "commit": "02a68e0b63",
+   "started_at": "2026-10-17T22:45:31Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0104",
+   "branch": "main",
+   "commit": "b3535180fb",
+   "started_at": "2026-10-17T23:55:02Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0105",
+   "branch": "main",
+   "commit": "817de9f928",
+   "started_at": "2026-10-18T01:04:33Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0106",
+   "branch": "main",
+   "commit": "08fbf071a9",
+   "started_at": "2026-10-18T02:14:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0107",
+   "branch": "main",
+   "commit": "28a59b5f5e",
+   "started_at": "2026-10-18T03:23:35Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0108",
+   "branch": "main",
+   "commit": "c66ec2a4d0",
+   "started_at": "2026-10-18T04:33:06Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0109",
+   "branch": "main",
+   "commit": "0d5324729d",
+   "started_at": "2026-10-18T05:42:37Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0110",
+   "branch": "main",
+   "commit": "66d3013c73",
+   "started_at": "2026-10-18T06:52:08Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0111",
+   "branch": "main",
+   "commit": "dd0dd268d8",
+   "started_at": "2026-10-18T08:01:39Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0112",
+   "branch": "main",
+   "commit": "e4ef41d8dd",
+   "started_at": "2026-10-18T09:11:10Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 83,
+    "failed": 1,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0113",
+   "branch": "main",
+   "commit": "5cff1f2209",
+   "started_at": "2026-10-18T10:20:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0114",
+   "branch": "main",
+   "commit": "254ea87173",
+   "started_at": "2026-10-18T11:30:12Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0115",
+   "branch": "main",
+   "commit": "14030e45e4",
+   "started_at": "2026-10-18T12:39:43Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0116",
+   "branch": "main",
+   "commit": "e4dd83aa4f",
+   "started_at": "2026-10-18T13:49:14Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0117",
+   "branch": "main",
+   "commit": "9264fff7bc",
+   "started_at": "2026-10-18T14:58:45Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0118",
+   "branch": "main",
+   "commit": "b3809581d2",
+   "started_at": "2026-10-18T16:08:16Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0119",
+   "branch": "main",
+   "commit": "e173870192",
+   "started_at": "2026-10-18T17:17:47Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0120",
+   "branch": "main",
+   "commit": "470c27cb11",
+   "started_at": "2026-10-18T18:27:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0121",
+   "branch": "main",
+   "commit": "a13edf158c",
+   "started_at": "2026-10-18T19:36:49Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0122",
+   "branch": "main",
+   "commit": "e88af93742",
+   "started_at": "2026-10-18T20:46:20Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0123",
+   "branch": "main",
+   "commit": "50db9afc73",
+   "started_at": "2026-10-18T21:55:51Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0124",
+   "branch": "main",
+   "commit": "ee4a17e96b",
+   "started_at": "2026-10-18T23:05:22Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0125",
+   "branch": "main",
+   "commit": "44d0bdaa53",
+   "started_at": "2026-10-19T00:14:53Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0126",
+   "branch": "main",
+   "commit": "bfeddf7caa",
+   "started_at": "2026-10-19T01:24:24Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0127",
+   "branch": "main",
+   "commit": "28a3cc6443",
+   "started_at": "2026-10-19T02:33:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0128",
+   "branch": "main",
+   "commit": "7f6f86a9ba",
+   "started_at": "2026-10-19T03:43:26Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0129",
+   "branch": "main",
+   "commit": "667e680785",
+   "started_at": "2026-10-19T04:52:57Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_cart_total_b"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0130",
+   "branch": "main",
+   "commit": "02fd3ef7e3",
+   "started_at": "2026-10-19T06:02:28Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0131",
+   "branch": "main",
+   "commit": "373c8ed607",
+   "started_at": "2026-10-19T07:12:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0132",
+   "branch": "main",
+   "commit": "d8f280c093",
+   "started_at": "2026-10-19T08:21:31Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_promo_apply_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0133",
+   "branch": "main",
+   "commit": "603cb1a2f6",
+   "started_at": "2026-10-19T09:31:02Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0134",
+   "branch": "main",
+   "commit": "0806eaaf57",
+   "started_at": "2026-10-19T10:40:33Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0135",
+   "branch": "main",
+   "commit": "78fa7d5982",
+   "started_at": "2026-10-19T11:50:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0136",
+   "branch": "main",
+   "commit": "728ede0bb7",
+   "started_at": "2026-10-19T12:59:35Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0137",
+   "branch": "main",
+   "commit": "5c738dd66b",
+   "started_at": "2026-10-19T14:09:06Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0138",
+   "branch": "main",
+   "commit": "27151df499",
+   "started_at": "2026-10-19T15:18:37Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0139",
+   "branch": "main",
+   "commit": "f458513ee7",
+   "started_at": "2026-10-19T16:28:08Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0140",
+   "branch": "main",
+   "commit": "c7ca876bbd",
+   "started_at": "2026-10-19T17:37:39Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0141",
+   "branch": "main",
+   "commit": "b4e1315eb9",
+   "started_at": "2026-10-19T18:47:10Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0142",
+   "branch": "main",
+   "commit": "8399831ceb",
+   "started_at": "2026-10-19T19:56:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0143",
+   "branch": "main",
+   "commit": "7764d4e53e",
+   "started_at": "2026-10-19T21:06:12Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0144",
+   "branch": "main",
+   "commit": "5371834a04",
+   "started_at": "2026-10-19T22:15:43Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0145",
+   "branch": "main",
+   "commit": "54c7d72c4c",
+   "started_at": "2026-10-19T23:25:14Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0146",
+   "branch": "main",
+   "commit": "ac630c9f75",
+   "started_at": "2026-10-20T00:34:45Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0147",
+   "branch": "main",
+   "commit": "8341484d92",
+   "started_at": "2026-10-20T01:44:16Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0148",
+   "branch": "main",
+   "commit": "7ac1364d60",
+   "started_at": "2026-10-20T02:53:47Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0149",
+   "branch": "main",
+   "commit": "18e97c6dec",
+   "started_at": "2026-10-20T04:03:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 83,
+    "failed": 1,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0150",
+   "branch": "main",
+   "commit": "255e7fd1b2",
+   "started_at": "2026-10-20T05:12:49Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0151",
+   "branch": "main",
+   "commit": "1d0481c266",
+   "started_at": "2026-10-20T06:22:20Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0152",
+   "branch": "main",
+   "commit": "f8a936a251",
+   "started_at": "2026-10-20T07:31:51Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0153",
+   "branch": "main",
+   "commit": "d3de570885",
+   "started_at": "2026-10-20T08:41:22Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0154",
+   "branch": "main",
+   "commit": "e218590785",
+   "started_at": "2026-10-20T09:50:53Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0155",
+   "branch": "main",
+   "commit": "e687eda208",
+   "started_at": "2026-10-20T11:00:24Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0156",
+   "branch": "main",
+   "commit": "11aac628c2",
+   "started_at": "2026-10-20T12:09:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0157",
+   "branch": "main",
+   "commit": "62841d1c41",
+   "started_at": "2026-10-20T13:19:26Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0158",
+   "branch": "main",
+   "commit": "bcceaa0981",
+   "started_at": "2026-10-20T14:28:57Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0159",
+   "branch": "main",
+   "commit": "dca69d2291",
+   "started_at": "2026-10-20T15:38:28Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0160",
+   "branch": "main",
+   "commit": "4852651498",
+   "started_at": "2026-10-20T16:48:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0161",
+   "branch": "main",
+   "commit": "d32127a002",
+   "started_at": "2026-10-20T17:57:31Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0162",
+   "branch": "main",
+   "commit": "f818dc919c",
+   "started_at": "2026-10-20T19:07:02Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0163",
+   "branch": "main",
+   "commit": "a2101b6725",
+   "started_at": "2026-10-20T20:16:33Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0164",
+   "branch": "main",
+   "commit": "21b0f89909",
+   "started_at": "2026-10-20T21:26:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0165",
+   "branch": "main",
+   "commit": "e887a130f7",
+   "started_at": "2026-10-20T22:35:35Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0166",
+   "branch": "main",
+   "commit": "b7c1965d01",
+   "started_at": "2026-10-20T23:45:06Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0167",
+   "branch": "main",
+   "commit": "bfa8b74baa",
+   "started_at": "2026-10-21T00:54:37Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0168",
+   "branch": "main",
+   "commit": "cceecd3ab9",
+   "started_at": "2026-10-21T02:04:08Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0169",
+   "branch": "main",
+   "commit": "84abdafee1",
+   "started_at": "2026-10-21T03:13:39Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0170",
+   "branch": "main",
+   "commit": "f1938ae051",
+   "started_at": "2026-10-21T04:23:10Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0171",
+   "branch": "main",
+   "commit": "1c00124636",
+   "started_at": "2026-10-21T05:32:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_promo_apply_b"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0172",
+   "branch": "main",
+   "commit": "6984b706c9",
+   "started_at": "2026-10-21T06:42:12Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0173",
+   "branch": "main",
+   "commit": "1911f9241e",
+   "started_at": "2026-10-21T07:51:43Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0174",
+   "branch": "main",
+   "commit": "933a307019",
+   "started_at": "2026-10-21T09:01:14Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0175",
+   "branch": "main",
+   "commit": "f809457c26",
+   "started_at": "2026-10-21T10:10:45Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0176",
+   "branch": "main",
+   "commit": "ca1f03ffba",
+   "started_at": "2026-10-21T11:20:16Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0177",
+   "branch": "main",
+   "commit": "c34bb1e4aa",
+   "started_at": "2026-10-21T12:29:47Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0178",
+   "branch": "main",
+   "commit": "7129e70118",
+   "started_at": "2026-10-21T13:39:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0179",
+   "branch": "main",
+   "commit": "f1ae36cf5a",
+   "started_at": "2026-10-21T14:48:49Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0180",
+   "branch": "main",
+   "commit": "971ddabd21",
+   "started_at": "2026-10-21T15:58:20Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0181",
+   "branch": "main",
+   "commit": "f49952a0b4",
+   "started_at": "2026-10-21T17:07:51Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0182",
+   "branch": "main",
+   "commit": "2c02c2a88e",
+   "started_at": "2026-10-21T18:17:22Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0183",
+   "branch": "main",
+   "commit": "9841410889",
+   "started_at": "2026-10-21T19:26:53Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0184",
+   "branch": "main",
+   "commit": "f83c5d95c4",
+   "started_at": "2026-10-21T20:36:24Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0185",
+   "branch": "main",
+   "commit": "0010378816",
+   "started_at": "2026-10-21T21:45:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0186",
+   "branch": "main",
+   "commit": "4c33021edb",
+   "started_at": "2026-10-21T22:55:26Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 83,
+    "failed": 1,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0187",
+   "branch": "main",
+   "commit": "73590ba52d",
+   "started_at": "2026-10-22T00:04:57Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0188",
+   "branch": "main",
+   "commit": "61312d9c32",
+   "started_at": "2026-10-22T01:14:28Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0189",
+   "branch": "main",
+   "commit": "d3425a1413",
+   "started_at": "2026-10-22T02:24:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0190",
+   "branch": "main",
+   "commit": "2b55be6749",
+   "started_at": "2026-10-22T03:33:31Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0191",
+   "branch": "main",
+   "commit": "8ccf656523",
+   "started_at": "2026-10-22T04:43:02Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0192",
+   "branch": "main",
+   "commit": "8701546c36",
+   "started_at": "2026-10-22T05:52:33Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0193",
+   "branch": "main",
+   "commit": "d884116e00",
+   "started_at": "2026-10-22T07:02:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0194",
+   "branch": "main",
+   "commit": "bc4bb2f83f",
+   "started_at": "2026-10-22T08:11:35Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0195",
+   "branch": "main",
+   "commit": "0e8849acbe",
+   "started_at": "2026-10-22T09:21:06Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0196",
+   "branch": "main",
+   "commit": "bf6a0a9edd",
+   "started_at": "2026-10-22T10:30:37Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0197",
+   "branch": "main",
+   "commit": "898d0dc8ac",
+   "started_at": "2026-10-22T11:40:08Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0198",
+   "branch": "main",
+   "commit": "75c6d6d28c",
+   "started_at": "2026-10-22T12:49:39Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0199",
+   "branch": "main",
+   "commit": "c03cd81d1e",
+   "started_at": "2026-10-22T13:59:10Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0200",
+   "branch": "main",
+   "commit": "3a67a182cd",
+   "started_at": "2026-10-22T15:08:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0201",
+   "branch": "main",
+   "commit": "100207e74a",
+   "started_at": "2026-10-22T16:18:12Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0202",
+   "branch": "main",
+   "commit": "041379630c",
+   "started_at": "2026-10-22T17:27:43Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0203",
+   "branch": "main",
+   "commit": "85c873b047",
+   "started_at": "2026-10-22T18:37:14Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0204",
+   "branch": "main",
+   "commit": "7aded17f71",
+   "started_at": "2026-10-22T19:46:45Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0205",
+   "branch": "main",
+   "commit": "971b62808d",
+   "started_at": "2026-10-22T20:56:16Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0206",
+   "branch": "main",
+   "commit": "e68a16e0a1",
+   "started_at": "2026-10-22T22:05:47Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0207",
+   "branch": "main",
+   "commit": "7e739a7354",
+   "started_at": "2026-10-22T23:15:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0208",
+   "branch": "main",
+   "commit": "47b3d7683e",
+   "started_at": "2026-10-23T00:24:49Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0209",
+   "branch": "main",
+   "commit": "f715bf3f3e",
+   "started_at": "2026-10-23T01:34:20Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0210",
+   "branch": "main",
+   "commit": "0e332325bd",
+   "started_at": "2026-10-23T02:43:51Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0211",
+   "branch": "main",
+   "commit": "faf635c386",
+   "started_at": "2026-10-23T03:53:22Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0212",
+   "branch": "main",
+   "commit": "4634a013ba",
+   "started_at": "2026-10-23T05:02:53Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_address_lookup_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0213",
+   "branch": "main",
+   "commit": "b07a0bcdee",
+   "started_at": "2026-10-23T06:12:24Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0214",
+   "branch": "main",
+   "commit": "bbe56e38ad",
+   "started_at": "2026-10-23T07:21:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0215",
+   "branch": "main",
+   "commit": "98da6136cd",
+   "started_at": "2026-10-23T08:31:26Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0216",
+   "branch": "main",
+   "commit": "62c32951b0",
+   "started_at": "2026-10-23T09:40:57Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0217",
+   "branch": "main",
+   "commit": "ea53f3cd90",
+   "started_at": "2026-10-23T10:50:28Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0218",
+   "branch": "main",
+   "commit": "49cfb420d2",
+   "started_at": "2026-10-23T12:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0219",
+   "branch": "main",
+   "commit": "88312d3c96",
+   "started_at": "2026-10-23T13:09:31Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0220",
+   "branch": "main",
+   "commit": "72eb486e27",
+   "started_at": "2026-10-23T14:19:02Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0221",
+   "branch": "main",
+   "commit": "a27eaeaada",
+   "started_at": "2026-10-23T15:28:33Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0222",
+   "branch": "main",
+   "commit": "fc0e6d2846",
+   "started_at": "2026-10-23T16:38:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0223",
+   "branch": "main",
+   "commit": "73e526b1e3",
+   "started_at": "2026-10-23T17:47:35Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 83,
+    "failed": 1,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0224",
+   "branch": "main",
+   "commit": "f97e645cbe",
+   "started_at": "2026-10-23T18:57:06Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0225",
+   "branch": "main",
+   "commit": "eb75a016a3",
+   "started_at": "2026-10-23T20:06:37Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0226",
+   "branch": "main",
+   "commit": "5faffc94b7",
+   "started_at": "2026-10-23T21:16:08Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0227",
+   "branch": "main",
+   "commit": "ae7a675292",
+   "started_at": "2026-10-23T22:25:39Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0228",
+   "branch": "main",
+   "commit": "9163868a1f",
+   "started_at": "2026-10-23T23:35:10Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0229",
+   "branch": "main",
+   "commit": "7c38e6de7e",
+   "started_at": "2026-10-24T00:44:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0230",
+   "branch": "main",
+   "commit": "ff18737410",
+   "started_at": "2026-10-24T01:54:12Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0231",
+   "branch": "main",
+   "commit": "0681f1e197",
+   "started_at": "2026-10-24T03:03:43Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0232",
+   "branch": "main",
+   "commit": "e16b4821db",
+   "started_at": "2026-10-24T04:13:14Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0233",
+   "branch": "main",
+   "commit": "2866986e08",
+   "started_at": "2026-10-24T05:22:45Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0234",
+   "branch": "main",
+   "commit": "ca64edf363",
+   "started_at": "2026-10-24T06:32:16Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0235",
+   "branch": "main",
+   "commit": "90c2de11c7",
+   "started_at": "2026-10-24T07:41:47Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0236",
+   "branch": "main",
+   "commit": "9c35391752",
+   "started_at": "2026-10-24T08:51:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0237",
+   "branch": "main",
+   "commit": "dcada564f8",
+   "started_at": "2026-10-24T10:00:49Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0238",
+   "branch": "main",
+   "commit": "ffaf058dbc",
+   "started_at": "2026-10-24T11:10:20Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0239",
+   "branch": "main",
+   "commit": "d9c933de19",
+   "started_at": "2026-10-24T12:19:51Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0240",
+   "branch": "main",
+   "commit": "8ea789eecf",
+   "started_at": "2026-10-24T13:29:22Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0241",
+   "branch": "main",
+   "commit": "e5e5c1461c",
+   "started_at": "2026-10-24T14:38:53Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0242",
+   "branch": "main",
+   "commit": "121919ae8f",
+   "started_at": "2026-10-24T15:48:24Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0243",
+   "branch": "main",
+   "commit": "f330c3db3c",
+   "started_at": "2026-10-24T16:57:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0244",
+   "branch": "main",
+   "commit": "f45cdc9352",
+   "started_at": "2026-10-24T18:07:26Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0245",
+   "branch": "main",
+   "commit": "aebf6cbe7c",
+   "started_at": "2026-10-24T19:16:57Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0246",
+   "branch": "main",
+   "commit": "b6bb92e395",
+   "started_at": "2026-10-24T20:26:28Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0247",
+   "branch": "main",
+   "commit": "d24f63a9ae",
+   "started_at": "2026-10-24T21:36:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0248",
+   "branch": "main",
+   "commit": "6e503b4421",
+   "started_at": "2026-10-24T22:45:31Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0249",
+   "branch": "main",
+   "commit": "7a9c5505cd",
+   "started_at": "2026-10-24T23:55:02Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0250",
+   "branch": "main",
+   "commit": "9729706a25",
+   "started_at": "2026-10-25T01:04:33Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0251",
+   "branch": "main",
+   "commit": "214e2d08f0",
+   "started_at": "2026-10-25T02:14:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0252",
+   "branch": "main",
+   "commit": "b09d42beda",
+   "started_at": "2026-10-25T03:23:35Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0253",
+   "branch": "main",
+   "commit": "741f185b33",
+   "started_at": "2026-10-25T04:33:06Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0254",
+   "branch": "main",
+   "commit": "29997b0d8b",
+   "started_at": "2026-10-25T05:42:37Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0255",
+   "branch": "main",
+   "commit": "b3d917500c",
+   "started_at": "2026-10-25T06:52:08Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0256",
+   "branch": "main",
+   "commit": "dd360c54bc",
+   "started_at": "2026-10-25T08:01:39Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0257",
+   "branch": "main",
+   "commit": "b20ca69af5",
+   "started_at": "2026-10-25T09:11:10Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0258",
+   "branch": "main",
+   "commit": "d292885d6b",
+   "started_at": "2026-10-25T10:20:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0259",
+   "branch": "main",
+   "commit": "305887bb7a",
+   "started_at": "2026-10-25T11:30:12Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0260",
+   "branch": "main",
+   "commit": "c005779628",
+   "started_at": "2026-10-25T12:39:43Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 83,
+    "failed": 1,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0261",
+   "branch": "main",
+   "commit": "9918f2c437",
+   "started_at": "2026-10-25T13:49:14Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0262",
+   "branch": "main",
+   "commit": "4eec3884c3",
+   "started_at": "2026-10-25T14:58:45Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0263",
+   "branch": "main",
+   "commit": "5969c431a1",
+   "started_at": "2026-10-25T16:08:16Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0264",
+   "branch": "main",
+   "commit": "905478fff3",
+   "started_at": "2026-10-25T17:17:47Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0265",
+   "branch": "main",
+   "commit": "c6527f6d35",
+   "started_at": "2026-10-25T18:27:18Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0266",
+   "branch": "main",
+   "commit": "121bee4a3e",
+   "started_at": "2026-10-25T19:36:49Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0267",
+   "branch": "main",
+   "commit": "dd0c440242",
+   "started_at": "2026-10-25T20:46:20Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0268",
+   "branch": "main",
+   "commit": "6ec57b1da8",
+   "started_at": "2026-10-25T21:55:51Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0269",
+   "branch": "main",
+   "commit": "cc994165a3",
+   "started_at": "2026-10-25T23:05:22Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0270",
+   "branch": "main",
+   "commit": "0da695de4a",
+   "started_at": "2026-10-26T00:14:53Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0271",
+   "branch": "main",
+   "commit": "e6e8ae0936",
+   "started_at": "2026-10-26T01:24:24Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0272",
+   "branch": "main",
+   "commit": "9d0ec83853",
+   "started_at": "2026-10-26T02:33:55Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0273",
+   "branch": "main",
+   "commit": "39051052d6",
+   "started_at": "2026-10-26T03:43:26Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0274",
+   "branch": "main",
+   "commit": "e47c652d8c",
+   "started_at": "2026-10-26T04:52:57Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0275",
+   "branch": "main",
+   "commit": "839bcb4f12",
+   "started_at": "2026-10-26T06:02:28Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0276",
+   "branch": "main",
+   "commit": "65174ac934",
+   "started_at": "2026-10-26T07:12:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0277",
+   "branch": "main",
+   "commit": "4c2d6dab97",
+   "started_at": "2026-10-26T08:21:31Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0278",
+   "branch": "main",
+   "commit": "2fe3d74a65",
+   "started_at": "2026-10-26T09:31:02Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0279",
+   "branch": "main",
+   "commit": "bff020105a",
+   "started_at": "2026-10-26T10:40:33Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0280",
+   "branch": "main",
+   "commit": "69912a4989",
+   "started_at": "2026-10-26T11:50:04Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0281",
+   "branch": "main",
+   "commit": "6c9ed62b53",
+   "started_at": "2026-10-26T12:59:35Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0282",
+   "branch": "main",
+   "commit": "71701f5a5c",
+   "started_at": "2026-10-26T14:09:06Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0283",
+   "branch": "main",
+   "commit": "4392dda7cf",
+   "started_at": "2026-10-26T15:18:37Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0284",
+   "branch": "main",
+   "commit": "c56783ec7c",
+   "started_at": "2026-10-26T16:28:08Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0285",
+   "branch": "main",
+   "commit": "0ffd724d65",
+   "started_at": "2026-10-26T17:37:39Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_address_lookup_b"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0286",
+   "branch": "main",
+   "commit": "d98a1b636a",
+   "started_at": "2026-10-26T18:47:10Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0287",
+   "branch": "main",
+   "commit": "6500fb5f3b",
+   "started_at": "2026-10-26T19:56:41Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0288",
+   "branch": "main",
+   "commit": "3e622449ed",
+   "started_at": "2026-10-26T21:06:12Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0289",
+   "branch": "main",
+   "commit": "1b56e7d609",
+   "started_at": "2026-10-26T22:15:43Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "prev-0290",
+   "branch": "main",
+   "commit": "d2f7290864",
+   "started_at": "2026-10-26T23:25:14Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 84,
+    "failed": 0,
+    "skipped": 2
+   }
+  },
+  {
+   "id": "feat-001",
+   "branch": "feature/demo-0",
+   "commit": "c036d1e172",
+   "started_at": "2026-10-27T04:12:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-002",
+   "branch": "feature/demo-1",
+   "commit": "c0164d49c7",
+   "started_at": "2026-10-27T12:36:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_cart_total_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-003",
+   "branch": "feature/demo-2",
+   "commit": "350d831578",
+   "started_at": "2026-10-27T21:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-004",
+   "branch": "feature/demo-3",
+   "commit": "6fe696af99",
+   "started_at": "2026-10-28T05:24:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_cart_total_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-005",
+   "branch": "feature/demo-4",
+   "commit": "7172af0bac",
+   "started_at": "2026-10-28T13:48:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-006",
+   "branch": "feature/demo-0",
+   "commit": "f1246a8286",
+   "started_at": "2026-10-28T22:12:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_cart_total_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-007",
+   "branch": "feature/demo-1",
+   "commit": "5cc088743d",
+   "started_at": "2026-10-29T06:36:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-008",
+   "branch": "feature/demo-2",
+   "commit": "4092bb917a",
+   "started_at": "2026-10-29T15:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_cart_total_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-009",
+   "branch": "feature/demo-3",
+   "commit": "e1bce60afb",
+   "started_at": "2026-10-29T23:24:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-010",
+   "branch": "feature/demo-4",
+   "commit": "9dea68f37b",
+   "started_at": "2026-10-30T07:48:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_cart_total_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-011",
+   "branch": "feature/demo-0",
+   "commit": "9f2b3c9a35",
+   "started_at": "2026-10-30T16:12:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-012",
+   "branch": "feature/demo-1",
+   "commit": "6c3e0797da",
+   "started_at": "2026-10-31T00:36:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_cart_total_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-013",
+   "branch": "feature/demo-2",
+   "commit": "8fbff8e6f4",
+   "started_at": "2026-10-31T09:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-014",
+   "branch": "feature/demo-3",
+   "commit": "6cf38db6f2",
+   "started_at": "2026-10-31T17:24:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_cart_total_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-015",
+   "branch": "feature/demo-4",
+   "commit": "b60a38ca40",
+   "started_at": "2026-11-01T01:48:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-016",
+   "branch": "feature/demo-0",
+   "commit": "da09df17ef",
+   "started_at": "2026-11-01T10:12:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_cart_total_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-017",
+   "branch": "feature/demo-1",
+   "commit": "2467230ef5",
+   "started_at": "2026-11-01T18:36:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-018",
+   "branch": "feature/demo-2",
+   "commit": "b11ccc7b98",
+   "started_at": "2026-11-02T03:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_cart_total_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-019",
+   "branch": "feature/demo-3",
+   "commit": "662ca1c5f7",
+   "started_at": "2026-11-02T11:24:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-020",
+   "branch": "feature/demo-4",
+   "commit": "8bfb44890a",
+   "started_at": "2026-11-02T19:48:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_cart_total_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-021",
+   "branch": "feature/demo-0",
+   "commit": "e669e736e8",
+   "started_at": "2026-11-03T04:12:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-022",
+   "branch": "feature/demo-1",
+   "commit": "28434cf3d6",
+   "started_at": "2026-11-03T12:36:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_cart_total_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-023",
+   "branch": "feature/demo-2",
+   "commit": "98ad9c40ee",
+   "started_at": "2026-11-03T21:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-024",
+   "branch": "feature/demo-3",
+   "commit": "74b84dba70",
+   "started_at": "2026-11-04T05:24:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_cart_total_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-025",
+   "branch": "feature/demo-4",
+   "commit": "0327a47330",
+   "started_at": "2026-11-04T13:48:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-026",
+   "branch": "feature/demo-0",
+   "commit": "7194a34f0f",
+   "started_at": "2026-11-04T22:12:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_cart_total_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-027",
+   "branch": "feature/demo-1",
+   "commit": "3981f02f93",
+   "started_at": "2026-11-05T06:36:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-028",
+   "branch": "feature/demo-2",
+   "commit": "186d08074e",
+   "started_at": "2026-11-05T15:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_cart_total_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-029",
+   "branch": "feature/demo-3",
+   "commit": "b9f08cc884",
+   "started_at": "2026-11-05T23:24:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-030",
+   "branch": "feature/demo-4",
+   "commit": "572023b6a0",
+   "started_at": "2026-11-06T07:48:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_cart_total_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-031",
+   "branch": "feature/demo-0",
+   "commit": "0816624140",
+   "started_at": "2026-11-06T16:12:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-032",
+   "branch": "feature/demo-1",
+   "commit": "63ed8f8231",
+   "started_at": "2026-11-07T00:36:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_cart_total_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-033",
+   "branch": "feature/demo-2",
+   "commit": "6ffd67ed22",
+   "started_at": "2026-11-07T09:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-034",
+   "branch": "feature/demo-3",
+   "commit": "a72136a559",
+   "started_at": "2026-11-07T17:24:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_cart_total_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-035",
+   "branch": "feature/demo-4",
+   "commit": "ff1814c1ee",
+   "started_at": "2026-11-08T01:48:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-036",
+   "branch": "feature/demo-0",
+   "commit": "1794edc92d",
+   "started_at": "2026-11-08T10:12:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_cart_total_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-037",
+   "branch": "feature/demo-1",
+   "commit": "1f6edda5f0",
+   "started_at": "2026-11-08T18:36:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-038",
+   "branch": "feature/demo-2",
+   "commit": "bd6d0def83",
+   "started_at": "2026-11-09T03:00:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_cart_total_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-039",
+   "branch": "feature/demo-3",
+   "commit": "781e6cf40d",
+   "started_at": "2026-11-09T11:24:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  },
+  {
+   "id": "feat-040",
+   "branch": "feature/demo-4",
+   "commit": "1420fb06d5",
+   "started_at": "2026-11-09T19:48:00Z",
+   "tests_total": 1204,
+   "flaky_failures": [
+    "test_cart_total_a"
+   ],
+   "real_failures": [],
+   "e2e": {
+    "total": 86,
+    "passed": 80,
+    "failed": 6,
+    "skipped": 0
+   }
+  }
+ ],
+ "e2e_quarantine": [
+  {
+   "test": "e2e_guest_checkout_card",
+   "critical_path": true,
+   "since": "2026-11-01T00:00:00Z"
+  },
+  {
+   "test": "e2e_apple_pay_confirm",
+   "critical_path": true,
+   "since": "2026-11-06T00:00:00Z"
+  },
+  {
+   "test": "e2e_wishlist_share",
+   "critical_path": false,
+   "since": "2026-10-21T00:00:00Z"
+  }
+ ]
+}

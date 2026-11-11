@@ -1,0 +1,44 @@
+{
+ "slos": [
+  {
+   "name": "checkout-availability",
+   "service": "checkout",
+   "window_days": 28,
+   "burn_rate": {
+    "current": 0.8,
+    "previous": 3.1
+   },
+   "budget_remaining_pct": {
+    "current": 64,
+    "previous": 9
+   }
+  },
+  {
+   "name": "payments-latency-p95",
+   "service": "payments",
+   "window_days": 28,
+   "burn_rate": {
+    "current": 0.4,
+    "previous": 0.5
+   },
+   "budget_remaining_pct": {
+    "current": 81,
+    "previous": 77
+   }
+  }
+ ],
+ "alerts": [
+  {
+   "name": "checkout-5xx-rate",
+   "muted": false
+  },
+  {
+   "name": "payments-timeout",
+   "muted": false
+  },
+  {
+   "name": "inventory-lag",
+   "muted": true
+  }
+ ]
+}
