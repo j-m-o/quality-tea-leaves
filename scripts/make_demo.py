@@ -177,15 +177,43 @@ def slo_alerts():
 
 
 def manifest():
+    pulled = ts(AS_OF - timedelta(minutes=5))
+
+    def p(connector, query, records):
+        return {"connector": connector, "query": query, "pulled_at": pulled, "records": records}
+
     return {"subject": "checkout-platform (fictional)", "release": "4.3", "as_of": ts(AS_OF),
-            "note": "Synthetic demo data. No real company, system or person."}
+            "note": "Synthetic demo data. No real company, system or person.",
+            "provenance": {
+                "ci_runs": p("mabl (synthetic)", "main-branch runs and reruns, last 28 days", 642),
+                "pull_requests": p("GitHub (synthetic)", "merged PRs, last 28 days", 95),
+                "coverage": p("GitHub (synthetic)", "coverage artifact from latest main build", 23),
+                "incidents": p("Sentry + Jira (synthetic)", "incidents and postmortem actions, last 56 days", 17),
+                "requirements": p("Jira (synthetic)", "stories with linked tests, release 4.3", 4),
+                "service_map": p("Honeycomb (synthetic)", "service dependencies from traces", 12),
+                "slo_alerts": p("Honeycomb (synthetic)", "SLO burn and budget, 28-day window", 2),
+            }}
+
+
+def demo_pr():
+    return {"number": 4152, "title": "Add regional tax override to cart totals",
+            "url": "https://example.invalid/checkout-platform/pull/4152", "head_sha": "9f3c2ab", "base": "main",
+            "author": "casey.ruiz",
+            "files": ["src/cart/legacy_tax.py", "src/cart/service.py", "tests/cart/test_service.py", "docs/tax.md"],
+            "checks": [
+                {"name": "unit-tests", "required": True, "conclusion": "success"},
+                {"name": "integration-tests", "required": True, "conclusion": "success"},
+                {"name": "e2e-critical", "required": True, "conclusion": "success"},
+                {"name": "security-scan", "required": True, "conclusion": "skipped"},
+                {"name": "lint", "required": False, "conclusion": "failure"},
+            ]}
 
 
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     for name, fn in [("manifest", manifest), ("ci_runs", ci_runs), ("pull_requests", pull_requests), ("coverage", coverage),
                      ("incidents", incidents), ("requirements", requirements), ("service_map", service_map),
-                     ("slo_alerts", slo_alerts)]:
+                     ("slo_alerts", slo_alerts), ("demo_pr", demo_pr)]:
         (OUT / f"{name}.json").write_text(json.dumps(fn(), indent=1) + "\n")
     print(f"Wrote demo data to {OUT}")
 

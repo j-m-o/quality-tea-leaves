@@ -10,6 +10,22 @@ Put these JSON files in one folder and pass it with `--data`. Every file is opti
 
 `as_of` fixes the reading time so readings are reproducible. Without it the script reads at the current time (or `--as-of`).
 
+Optional `provenance` records where each file came from (see `gathering.md`):
+
+```json
+{"provenance": {"slo_alerts": {"connector": "Honeycomb", "query": "SLO burn, 28-day window", "pulled_at": "...", "records": 2}}}
+```
+
+## pr.json (PR mode)
+
+```json
+{"number": 4152, "title": "...", "url": "...", "head_sha": "9f3c2ab", "base": "main",
+ "files": ["src/cart/legacy_tax.py", "tests/cart/test_service.py"],
+ "checks": [{"name": "security-scan", "required": true, "conclusion": "skipped"}]}
+```
+
+`conclusion` is the check run's conclusion (`success`, `failure`, `skipped`, `cancelled`, `timed_out`, `neutral`) or `null` while running. Test files, docs and non-code files are ignored when looking for untested changes. Leave the author out.
+
 ## ci_runs.json
 
 ```json

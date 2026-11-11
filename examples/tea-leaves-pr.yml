@@ -1,0 +1,24 @@
+# Copy to .github/workflows/tea-leaves.yml in any repo.
+# Advisory only: the job never fails the PR, so it can never block a merge.
+name: Quality Tea Leaves
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+  pull-requests: write   # the one write: post or update a single comment
+  checks: read
+
+jobs:
+  tea-leaves:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      # Optional: produce coverage first, for example: pytest --cov --cov-report=lcov:coverage.lcov
+      - uses: j-m-o/quality-tea-leaves@v1
+        with:
+          required-checks: "unit-tests,integration-tests,security-scan"
+          lcov: coverage.lcov            # optional
+          data-dir: .tealeaves           # optional: exports from mabl, Jira, Sentry, Honeycomb

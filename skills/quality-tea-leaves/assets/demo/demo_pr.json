@@ -1,0 +1,41 @@
+{
+ "number": 4152,
+ "title": "Add regional tax override to cart totals",
+ "url": "https://example.invalid/checkout-platform/pull/4152",
+ "head_sha": "9f3c2ab",
+ "base": "main",
+ "author": "casey.ruiz",
+ "files": [
+  "src/cart/legacy_tax.py",
+  "src/cart/service.py",
+  "tests/cart/test_service.py",
+  "docs/tax.md"
+ ],
+ "checks": [
+  {
+   "name": "unit-tests",
+   "required": true,
+   "conclusion": "success"
+  },
+  {
+   "name": "integration-tests",
+   "required": true,
+   "conclusion": "success"
+  },
+  {
+   "name": "e2e-critical",
+   "required": true,
+   "conclusion": "success"
+  },
+  {
+   "name": "security-scan",
+   "required": true,
+   "conclusion": "skipped"
+  },
+  {
+   "name": "lint",
+   "required": false,
+   "conclusion": "failure"
+  }
+ ]
+}

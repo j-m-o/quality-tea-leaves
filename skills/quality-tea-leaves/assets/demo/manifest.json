@@ -2,5 +2,49 @@
  "subject": "checkout-platform (fictional)",
  "release": "4.3",
  "as_of": "2026-11-10T00:00:00Z",
- "note": "Synthetic demo data. No real company, system or person."
+ "note": "Synthetic demo data. No real company, system or person.",
+ "provenance": {
+  "ci_runs": {
+   "connector": "mabl (synthetic)",
+   "query": "main-branch runs and reruns, last 28 days",
+   "pulled_at": "2026-11-09T23:55:00Z",
+   "records": 642
+  },
+  "pull_requests": {
+   "connector": "GitHub (synthetic)",
+   "query": "merged PRs, last 28 days",
+   "pulled_at": "2026-11-09T23:55:00Z",
+   "records": 95
+  },
+  "coverage": {
+   "connector": "GitHub (synthetic)",
+   "query": "coverage artifact from latest main build",
+   "pulled_at": "2026-11-09T23:55:00Z",
+   "records": 23
+  },
+  "incidents": {
+   "connector": "Sentry + Jira (synthetic)",
+   "query": "incidents and postmortem actions, last 56 days",
+   "pulled_at": "2026-11-09T23:55:00Z",
+   "records": 17
+  },
+  "requirements": {
+   "connector": "Jira (synthetic)",
+   "query": "stories with linked tests, release 4.3",
+   "pulled_at": "2026-11-09T23:55:00Z",
+   "records": 4
+  },
+  "service_map": {
+   "connector": "Honeycomb (synthetic)",
+   "query": "service dependencies from traces",
+   "pulled_at": "2026-11-09T23:55:00Z",
+   "records": 12
+  },
+  "slo_alerts": {
+   "connector": "Honeycomb (synthetic)",
+   "query": "SLO burn and budget, 28-day window",
+   "pulled_at": "2026-11-09T23:55:00Z",
+   "records": 2
+  }
+ }
 }

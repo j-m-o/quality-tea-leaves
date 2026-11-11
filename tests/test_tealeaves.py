@@ -170,3 +170,125 @@ class Safety(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+# ---------------------------------------------------------------- v1.1: PR mode
+
+import check_data  # noqa: E402
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "action"))
+import collect_github  # noqa: E402
+import post_comment  # noqa: E402
+
+DEMO_PR = DEMO / "demo_pr.json"
+
+
+class PullRequestMode(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.reading = tealeaves.read(DEMO, pr_path=DEMO_PR)
+        cls.by_id = {c["id"]: c for c in cls.reading["cards"]}
+        cls.comment = render.comment_md(cls.reading)
+
+    def test_pr_scoped_cards_replace_repo_windows(self):
+        self.assertEqual(self.by_id["fool"]["scope"], "pr")
+        self.assertEqual(self.by_id["emperor"]["scope"], "pr")
+        self.assertEqual(self.by_id["death"]["scope"], "repo")
+
+    def test_fool_finds_untested_source_and_ignores_tests_and_docs(self):
+        fool = self.by_id["fool"]
+        self.assertEqual(fool["state"], "upright")
+        self.assertIn("Untested files in this PR: 1 of 2", fool["evidence"])
+        self.assertIn("File: src/cart/legacy_tax.py", fool["evidence"])
+
+    def test_emperor_counts_only_required_checks(self):
+        emp = self.by_id["emperor"]
+        self.assertEqual(emp["state"], "upright")
+        self.assertIn("Required checks not passing: 1 of 4", emp["evidence"])
+        self.assertIn("security-scan: skipped", emp["evidence"])
+        self.assertNotIn("lint: failure", emp["evidence"])
+
+    def test_pr_changes_the_next_release_card(self):
+        self.assertEqual([s["card"] for s in self.reading["spread"]], ["death", "flaky_tower", "fool"])
+
+    def test_comment_has_marker_provenance_and_no_author(self):
+        self.assertTrue(self.comment.startswith(post_comment.MARKER))
+        self.assertIn("via Honeycomb (synthetic)", self.comment)
+        self.assertIn("Where the evidence came from", self.comment)
+        self.assertIn("never blocks a merge", self.comment)
+        self.assertNotIn("casey.ruiz", self.comment)
+        self.assertLess(len(self.comment), 65536)
+
+    def test_comment_is_written_only_in_pr_mode(self):
+        out = Path(tempfile.mkdtemp())
+        render.write_all(self.reading, tealeaves.load_deck(), out)
+        self.assertTrue((out / "comment.md").exists())
+        out2 = Path(tempfile.mkdtemp())
+        render.write_all(tealeaves.read(DEMO), tealeaves.load_deck(), out2)
+        self.assertFalse((out2 / "comment.md").exists())
+
+    def test_no_required_checks_clouds_the_emperor(self):
+        data = demo_copy()
+        pr = json.loads(DEMO_PR.read_text())
+        for c in pr["checks"]:
+            c["required"] = False
+        (data / "pr.json").write_text(json.dumps(pr))
+        emp = {c["id"]: c for c in tealeaves.read(data, pr_path=data / "pr.json")["cards"]}["emperor"]
+        self.assertEqual(emp["state"], "clouded")
+        self.assertIn("No required checks reported", emp["missing"])
+
+
+class DataContract(unittest.TestCase):
+    def test_demo_data_passes(self):
+        for name in check_data.CONTRACT:
+            path = DEMO / ("demo_pr.json" if name == "pr" else f"{name}.json")
+            with self.subTest(source=name):
+                self.assertEqual(check_data.check(name, json.loads(path.read_text())), [])
+
+    def test_malformed_agent_output_is_set_aside_and_clouds(self):
+        data = demo_copy()
+        bad = json.loads((data / "slo_alerts.json").read_text())
+        del bad["slos"][0]["burn_rate"]
+        (data / "slo_alerts.json").write_text(json.dumps(bad))
+        reading = tealeaves.read(data)
+        death = {c["id"]: c for c in reading["cards"]}["death"]
+        self.assertEqual(death["state"], "clouded")
+        self.assertIn("slo_alerts.json failed contract check", death["missing"])
+        self.assertIn("slo_alerts", reading["source_problems"])
+
+    def test_bad_timestamp_is_caught(self):
+        problems = check_data.check("incidents", {"incidents": [
+            {"id": "X", "opened_at": "last tuesday", "detected_by": "alert", "escaped_defect": False}]})
+        self.assertEqual(problems, ["incidents[0].opened_at is not an ISO time"])
+
+
+class GitHubAction(unittest.TestCase):
+    EVENT = {"pull_request": {"number": 7, "title": "t", "html_url": "u", "user": {"login": "someone"},
+                              "head": {"sha": "abc1234", "repo": {"full_name": "fork/repo"}}, "base": {"ref": "main"}},
+             "repository": {"full_name": "j-m-o/demo"}}
+
+    def test_build_pr_marks_required_and_drops_author(self):
+        pr = collect_github.build_pr(self.EVENT, ["b.py", "a.py", "a.py"],
+                                     [("unit", "success"), ("scan", "pending")], ["unit", " scan "])
+        self.assertEqual(pr["files"], ["a.py", "b.py"])
+        self.assertEqual(pr["checks"], [{"name": "unit", "required": True, "conclusion": "success"},
+                                        {"name": "scan", "required": True, "conclusion": None}])
+        self.assertNotIn("someone", json.dumps(pr))
+        self.assertEqual(check_data.check("pr", pr), [])
+
+    def test_lcov_conversion(self):
+        lcov = "SF:/ws/src/a.py\nLH:3\nend_of_record\nSF:/ws/src/b.py\nLH:0\nend_of_record\n"
+        cov = collect_github.lcov_to_coverage(lcov, "/ws")
+        self.assertEqual(cov["files"], {"src/a.py": True, "src/b.py": False})
+
+    def test_fork_detection(self):
+        self.assertTrue(post_comment.is_fork(self.EVENT))
+        same = json.loads(json.dumps(self.EVENT))
+        same["pull_request"]["head"]["repo"]["full_name"] = "j-m-o/demo"
+        self.assertFalse(post_comment.is_fork(same))
+
+    def test_updates_the_bot_comment_not_a_human_quote(self):
+        comments = [{"id": 1, "body": post_comment.MARKER + " quoted", "user": {"type": "User"}},
+                    {"id": 2, "body": post_comment.MARKER + "\n## reading", "user": {"type": "Bot"}}]
+        self.assertEqual(post_comment.find_existing(comments), 2)
+        self.assertIsNone(post_comment.find_existing(comments[:1]))

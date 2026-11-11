@@ -1,0 +1,329 @@
+{
+  "deck": "Quality Tea Leaves",
+  "deck_version": "1.1.0",
+  "subject": "checkout-platform (fictional)",
+  "release": "4.3",
+  "as_of": "2026-11-10T00:00:00Z",
+  "sources": [
+    "ci_runs",
+    "coverage",
+    "incidents",
+    "manifest",
+    "pr",
+    "pull_requests",
+    "requirements",
+    "service_map",
+    "slo_alerts"
+  ],
+  "source_problems": {},
+  "provenance": {
+    "ci_runs": {
+      "connector": "mabl (synthetic)",
+      "query": "main-branch runs and reruns, last 28 days",
+      "pulled_at": "2026-11-09T23:55:00Z",
+      "records": 642
+    },
+    "pull_requests": {
+      "connector": "GitHub (synthetic)",
+      "query": "merged PRs, last 28 days",
+      "pulled_at": "2026-11-09T23:55:00Z",
+      "records": 95
+    },
+    "coverage": {
+      "connector": "GitHub (synthetic)",
+      "query": "coverage artifact from latest main build",
+      "pulled_at": "2026-11-09T23:55:00Z",
+      "records": 23
+    },
+    "incidents": {
+      "connector": "Sentry + Jira (synthetic)",
+      "query": "incidents and postmortem actions, last 56 days",
+      "pulled_at": "2026-11-09T23:55:00Z",
+      "records": 17
+    },
+    "requirements": {
+      "connector": "Jira (synthetic)",
+      "query": "stories with linked tests, release 4.3",
+      "pulled_at": "2026-11-09T23:55:00Z",
+      "records": 4
+    },
+    "service_map": {
+      "connector": "Honeycomb (synthetic)",
+      "query": "service dependencies from traces",
+      "pulled_at": "2026-11-09T23:55:00Z",
+      "records": 12
+    },
+    "slo_alerts": {
+      "connector": "Honeycomb (synthetic)",
+      "query": "SLO burn and budget, 28-day window",
+      "pulled_at": "2026-11-09T23:55:00Z",
+      "records": 2
+    }
+  },
+  "pr": {
+    "number": 4152,
+    "title": "Add regional tax override to cart totals",
+    "url": "https://example.invalid/checkout-platform/pull/4152",
+    "head_sha": "9f3c2ab"
+  },
+  "summary": "In the past, the reaper retreats; in the present, the tower trembles; and for the next release, the fool steps blindly from the cliff.",
+  "spread": [
+    {
+      "position": "past",
+      "label": "Past",
+      "card": "death"
+    },
+    {
+      "position": "present",
+      "label": "Present",
+      "card": "flaky_tower"
+    },
+    {
+      "position": "next",
+      "label": "Next Release",
+      "card": "fool"
+    }
+  ],
+  "cards": [
+    {
+      "id": "fool",
+      "number": 0,
+      "numeral": "0",
+      "name": "The Fool",
+      "signal": "Untested change",
+      "slot": "leading",
+      "source": "pr.json + coverage.json",
+      "scope": "pr",
+      "via": [
+        "GitHub (synthetic)"
+      ],
+      "state": "upright",
+      "strength": 1.0,
+      "confidence": "HIGH",
+      "evidence": [
+        "Untested files in this PR: 1 of 2",
+        "File: src/cart/legacy_tax.py"
+      ],
+      "missing": [],
+      "prophecy": "A traveler steps from the cliff with eyes on the sky. Changes march into the world with no test to catch their fall."
+    },
+    {
+      "id": "emperor",
+      "number": 4,
+      "numeral": "IV",
+      "name": "The Emperor",
+      "signal": "Rules bypassed",
+      "slot": "current",
+      "source": "pr.json",
+      "scope": "pr",
+      "via": [],
+      "state": "upright",
+      "strength": 1.0,
+      "confidence": "HIGH",
+      "evidence": [
+        "Required checks not passing: 1 of 4",
+        "security-scan: skipped"
+      ],
+      "missing": [],
+      "prophecy": "The throne's law was broken in the night. A merge passed the gates without the guards' blessing."
+    },
+    {
+      "id": "hierophant",
+      "number": 5,
+      "numeral": "V",
+      "name": "The Hierophant",
+      "signal": "Requirements evidence",
+      "slot": "leading",
+      "source": "requirements.json",
+      "scope": "repo",
+      "via": [
+        "Jira (synthetic)"
+      ],
+      "state": "clouded",
+      "strength": 0.0,
+      "confidence": null,
+      "evidence": [],
+      "missing": [
+        "Services reporting: 2 of 9 (need 5)",
+        "Traceability export: 41 days old (max 14)",
+        "To read: link requirements to tests"
+      ],
+      "prophecy": "The mists will not part. The oracle will not speak of what it cannot see. Bring evidence, and the veil will lift."
+    },
+    {
+      "id": "hermit",
+      "number": 9,
+      "numeral": "IX",
+      "name": "The Hermit",
+      "signal": "Isolated services",
+      "slot": "leading",
+      "source": "service_map.json",
+      "scope": "repo",
+      "via": [
+        "Honeycomb (synthetic)"
+      ],
+      "state": "quiet",
+      "strength": 0.0,
+      "confidence": null,
+      "evidence": [
+        "Untested borders: 1 of 12 (8.3%)",
+        "Threshold: 20%",
+        "Example: payments to notifications"
+      ],
+      "missing": [],
+      "prophecy": null
+    },
+    {
+      "id": "hanged_man",
+      "number": 12,
+      "numeral": "XII",
+      "name": "The Hanged Man",
+      "signal": "Suspended E2E",
+      "slot": "current",
+      "source": "ci_runs.json",
+      "scope": "repo",
+      "via": [
+        "mabl (synthetic)"
+      ],
+      "state": "upright",
+      "strength": 2.0,
+      "confidence": "HIGH",
+      "evidence": [
+        "Critical E2E quarantined: 2",
+        "E2E pass rate: 97.6%",
+        "Window: 14 days, 312 runs",
+        "Example: e2e_guest_checkout_card"
+      ],
+      "missing": [],
+      "prophecy": "The journeys hang suspended. Critical paths dangle in quarantine, and no one walks them to the end."
+    },
+    {
+      "id": "death",
+      "number": 13,
+      "numeral": "XIII",
+      "name": "Death",
+      "signal": "Error budget",
+      "slot": "lagging",
+      "source": "slo_alerts.json",
+      "scope": "repo",
+      "via": [
+        "Honeycomb (synthetic)"
+      ],
+      "state": "reversed",
+      "strength": 3.1,
+      "confidence": "MEDIUM",
+      "evidence": [
+        "SLO: checkout-availability",
+        "Burn rate: 0.8x (was 3.1x)",
+        "Budget left: 64% (was 9%)",
+        "Window: 28 days"
+      ],
+      "missing": [],
+      "prophecy": "The reaper turns from the gate. What was dying draws breath again; guard the remedies that stayed his hand."
+    },
+    {
+      "id": "flaky_tower",
+      "number": 16,
+      "numeral": "XVI",
+      "name": "The Flaky Tower",
+      "signal": "Flakiness",
+      "slot": "current",
+      "source": "ci_runs.json",
+      "scope": "repo",
+      "via": [
+        "mabl (synthetic)"
+      ],
+      "state": "upright",
+      "strength": 2.564,
+      "confidence": "HIGH",
+      "evidence": [
+        "Flaky rate on main: 7.7%",
+        "Threshold: 3%",
+        "Tests affected: 41 of 1,204",
+        "Window: 14 days, 312 runs"
+      ],
+      "missing": [],
+      "prophecy": "The tower trembles at its root. Its stones fail without cause, and every green banner flown above them is a lie."
+    },
+    {
+      "id": "star",
+      "number": 17,
+      "numeral": "XVII",
+      "name": "The Star",
+      "signal": "Escaped defects",
+      "slot": "lagging",
+      "source": "incidents.json",
+      "scope": "repo",
+      "via": [
+        "Sentry + Jira (synthetic)"
+      ],
+      "state": "reversed",
+      "strength": 1.5,
+      "confidence": "MEDIUM",
+      "evidence": [
+        "Escaped defects: 2 (was 3)",
+        "Window: 28 days vs prior 28",
+        "Incidents: 9 (was 8)"
+      ],
+      "missing": [],
+      "prophecy": "The star brightens. Fewer defects escape into the world; the watch is holding."
+    },
+    {
+      "id": "moon",
+      "number": 18,
+      "numeral": "XVIII",
+      "name": "The Moon",
+      "signal": "Blind spots",
+      "slot": "current",
+      "source": "incidents.json",
+      "scope": "repo",
+      "via": [
+        "Sentry + Jira (synthetic)"
+      ],
+      "state": "reversed",
+      "strength": 1.5,
+      "confidence": "MEDIUM",
+      "evidence": [
+        "Found by customers first: 2 of 9",
+        "Now 22.2%, was 37.5%",
+        "Threshold: 25%",
+        "Window: 28 days"
+      ],
+      "missing": [],
+      "prophecy": "The moonlight sharpens. Your alarms now find trouble before your customers must."
+    },
+    {
+      "id": "judgement",
+      "number": 20,
+      "numeral": "XX",
+      "name": "Judgement",
+      "signal": "Unfinished lessons",
+      "slot": "lagging",
+      "source": "incidents.json",
+      "scope": "repo",
+      "via": [
+        "Sentry + Jira (synthetic)"
+      ],
+      "state": "upright",
+      "strength": 1.5,
+      "confidence": "MEDIUM",
+      "evidence": [
+        "Overdue actions: 6 of 20 (30.0%)",
+        "Threshold: 20%",
+        "Oldest: ACT-16, 18 days late"
+      ],
+      "missing": [],
+      "prophecy": "The trumpet sounds, and the lessons go unanswered. Vows made after the fall lie overdue."
+    }
+  ],
+  "counts": {
+    "upright": 5,
+    "reversed": 3,
+    "quiet": 1,
+    "clouded": 1
+  },
+  "review": {
+    "status": "pending_human_review",
+    "note": "Advisory only. A human reviews this reading before it is shared or acted on."
+  }
+}

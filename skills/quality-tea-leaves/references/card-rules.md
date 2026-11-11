@@ -38,6 +38,17 @@ Every card is decided by a rule over the data. All thresholds, minimum samples a
 
 Feature-branch runs are ignored. Only `main` is read.
 
+## PR mode
+
+With `--pr`, two cards read the pull request instead of the repo windows. Both are direct observations of this PR, so a drawn card's confidence is HIGH; strength is the count.
+
+| Card | Value | Clouded when |
+| --- | --- | --- |
+| 0 The Fool | Changed source files (not tests, docs or config) that coverage marks uncovered or does not list | No `coverage.json` |
+| IV The Emperor | Required checks on the head commit whose conclusion is not `success` or `neutral` (still-running checks are listed, not counted) | No required checks reported |
+
+Every other card reads the repo data, so a PR comment always shows the PR in the context of the codebase it lands in.
+
 ## The spread
 
 | Position | Slot | Cards |
@@ -50,6 +61,7 @@ Each position takes the strongest drawn card (ties go to the lower card number).
 
 ## Roadmap
 
-- v1.1: the other 12 Major Arcana: The Magician, The High Priestess, The Empress, The Lovers (broken contracts), The Chariot, Strength, The Friday Deploy, Justice, Temperance, The Devil (silenced alerts), The Sun and The World.
-- v1.2: richer illustrated card art beyond generated line art.
+- v1.1 (this release): PR mode, PR comments, GitHub Action, data contract checker, provenance.
+- v1.2: the other 12 Major Arcana: The Magician, The High Priestess, The Empress, The Lovers (broken contracts), The Chariot, Strength, The Friday Deploy, Justice, Temperance, The Devil (silenced alerts), The Sun and The World.
+- v1.3: richer illustrated card art beyond generated line art.
 - v2: Minor Arcana. Four suits as quality domains (Swords testing, Wands delivery, Cups customer and requirements, Pentacles operations), adding latency p95/p99 regressions, accessibility and security testing.

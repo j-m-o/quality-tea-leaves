@@ -1,0 +1,65 @@
+name: Quality Tea Leaves
+description: Evidence-backed tarot reading of a pull request's quality, posted as one advisory PR comment.
+author: Jessica Mosley
+branding:
+  icon: coffee
+  color: green
+
+inputs:
+  data-dir:
+    description: Folder of Tea Leaves JSON exports (ci_runs, incidents, slo_alerts and so on). Optional; missing sources cloud their cards.
+    required: false
+    default: ""
+  lcov:
+    description: Path to an lcov coverage report, converted to coverage.json. Optional.
+    required: false
+    default: ""
+  required-checks:
+    description: Comma-separated names of the checks this repo requires. Without it, The Emperor is clouded.
+    required: false
+    default: ""
+  comment:
+    description: Post or update the PR comment ("true" or "false").
+    required: false
+    default: "true"
+  github-token:
+    description: Token for reading the PR and writing the one comment.
+    required: false
+    default: ${{ github.token }}
+
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
+
+    - name: Collect pull request facts
+      shell: bash
+      env:
+        GH_TOKEN: ${{ inputs.github-token }}
+        TL_DATA_DIR: ${{ inputs.data-dir }}
+        TL_LCOV: ${{ inputs.lcov }}
+        TL_REQUIRED: ${{ inputs.required-checks }}
+      run: |
+        python "$GITHUB_ACTION_PATH/action/collect_github.py" --out "$RUNNER_TEMP/tealeaves-data" \
+          --data-dir "$TL_DATA_DIR" --lcov "$TL_LCOV" --required-checks "$TL_REQUIRED"
+
+    - name: Read the leaves (offline)
+      shell: bash
+      run: |
+        python "$GITHUB_ACTION_PATH/skills/quality-tea-leaves/scripts/check_data.py" "$RUNNER_TEMP/tealeaves-data" || true
+        python "$GITHUB_ACTION_PATH/skills/quality-tea-leaves/scripts/tealeaves.py" pr \
+          --data "$RUNNER_TEMP/tealeaves-data" --pr "$RUNNER_TEMP/tealeaves-data/pr.json" --out "$RUNNER_TEMP/tealeaves-reading"
+
+    - uses: actions/upload-artifact@v4
+      with:
+        name: quality-tea-leaves-reading
+        path: ${{ runner.temp }}/tealeaves-reading
+
+    - name: Post or update the one comment
+      if: inputs.comment == 'true'
+      shell: bash
+      env:
+        GH_TOKEN: ${{ inputs.github-token }}
+      run: python "$GITHUB_ACTION_PATH/action/post_comment.py" --body "$RUNNER_TEMP/tealeaves-reading/comment.md"

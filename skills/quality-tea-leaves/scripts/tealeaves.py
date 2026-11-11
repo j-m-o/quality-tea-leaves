@@ -7,12 +7,15 @@ reading.
 
 Usage:
   python tealeaves.py demo [--out DIR]
+  python tealeaves.py demo-pr [--out DIR]
   python tealeaves.py read --data DIR [--out DIR] [--as-of 2026-11-10T00:00:00Z]
+  python tealeaves.py pr --data DIR --pr pr.json [--out DIR]
 
 Quality Tea Leaves, created by Jessica Mosley | LinkedIn: https://www.linkedin.com/in/jessmosley/ | GitHub: https://github.com/j-m-o/
 """
 import argparse
 import json
+import re
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -20,7 +23,7 @@ from pathlib import Path
 SKILL_DIR = Path(__file__).resolve().parents[1]
 DECK_PATH = SKILL_DIR / "assets" / "deck.json"
 DEMO_DIR = SKILL_DIR / "assets" / "demo"
-SOURCES = ["manifest", "ci_runs", "pull_requests", "coverage", "incidents", "requirements", "service_map", "slo_alerts"]
+SOURCES = ["manifest", "pr", "ci_runs", "pull_requests", "coverage", "incidents", "requirements", "service_map", "slo_alerts"]
 SLOTS = [("past", "Past", "lagging"), ("present", "Present", "current"), ("next", "Next Release", "leading")]
 CONFIDENCE = {3: "HIGH", 2: "MEDIUM", 1: "LOW"}
 
@@ -41,17 +44,39 @@ def load_deck():
     return json.loads(DECK_PATH.read_text())
 
 
-def load_sources(data_dir):
+def load_sources(data_dir, extra=None):
+    """Load every source that exists and passes the data contract.
+
+    Returns (sources, problems). A failing file is left out of sources and its
+    problems are recorded, so dependent cards cloud with a reason.
+    """
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import check_data
+
     data_dir = Path(data_dir)
-    found = {}
-    for name in SOURCES:
-        path = data_dir / f"{name}.json"
-        if path.exists():
-            found[name] = json.loads(path.read_text())
-    return found
+    paths = {name: data_dir / f"{name}.json" for name in SOURCES}
+    paths.update(extra or {})
+    found, problems = {}, {}
+    for name, path in paths.items():
+        if not Path(path).exists():
+            continue
+        try:
+            data = json.loads(Path(path).read_text())
+        except ValueError as e:
+            problems[name] = [f"not valid JSON ({e})"]
+            continue
+        issues = check_data.check(name, data)
+        if issues:
+            problems[name] = issues
+        else:
+            found[name] = data
+    found["_problems"] = problems
+    return found, problems
 
 
 def need(sources, name):
+    if name in sources.get("_problems", {}):
+        raise Clouded(f"{name}.json failed contract check")
     if name not in sources:
         raise Clouded(f"{name}.json not provided")
     return sources[name]
@@ -264,6 +289,51 @@ def rule_judgement(card, src, as_of):
     return judge(card, cur, None, len(actions), ev)
 
 
+CODE_EXT = {".py", ".js", ".jsx", ".ts", ".tsx", ".java", ".kt", ".go", ".rb", ".cs", ".php", ".swift", ".scala", ".rs", ".c", ".cc", ".cpp"}
+
+
+def is_source_file(path):
+    parts = re.split(r"[\\/]", path.lower())
+    test_like = any(p in ("test", "tests", "__tests__", "spec", "e2e") for p in parts[:-1]) or \
+        re.search(r"(^test_|_test\.|\.test\.|\.spec\.)", parts[-1])
+    return Path(path).suffix.lower() in CODE_EXT and not test_like
+
+
+def rule_fool_pr(card, src, as_of):
+    """This PR: changed source files that no test covers. Directly observed, so confidence is HIGH."""
+    pr = need(src, "pr")
+    covered = need(src, "coverage")["files"]
+    code = [f for f in pr["files"] if is_source_file(f)]
+    untested = [f for f in code if not covered.get(f, False)]
+    ev = [f"Untested files in this PR: {len(untested)} of {len(code)}"]
+    if untested:
+        ev.append(f"File: {untested[0]}"[:42])
+    if not code:
+        ev = ["No source files changed in this PR"]
+    if untested:
+        return {"state": "upright", "strength": float(len(untested)), "confidence": "HIGH", "evidence": ev}
+    return {"state": "quiet", "strength": 0.0, "confidence": None, "evidence": ev}
+
+
+def rule_emperor_pr(card, src, as_of):
+    """This PR: required checks that are not passing. Directly observed, so confidence is HIGH."""
+    pr = need(src, "pr")
+    required = [c for c in pr["checks"] if c.get("required")]
+    if not required:
+        raise Clouded("No required checks reported", "To read: pass required-checks")
+    pending = [c for c in required if c["conclusion"] in (None, "pending", "queued", "in_progress")]
+    failing = [c for c in required if c not in pending and c["conclusion"] not in ("success", "neutral")]
+    ev = [f"Required checks not passing: {len(failing)} of {len(required)}"]
+    ev += [f"{c['name']}: {c['conclusion']}"[:42] for c in failing[:2]]
+    if pending:
+        ev.append(f"Still running: {len(pending)}")
+    if failing:
+        return {"state": "upright", "strength": float(len(failing)), "confidence": "HIGH", "evidence": ev}
+    return {"state": "quiet", "strength": 0.0, "confidence": None, "evidence": ev}
+
+
+PR_RULES = {"fool": rule_fool_pr, "emperor": rule_emperor_pr}
+
 RULES = {
     "fool": rule_fool, "emperor": rule_emperor, "hierophant": rule_hierophant, "hermit": rule_hermit,
     "hanged_man": rule_hanged_man, "death": rule_death, "flaky_tower": rule_flaky_tower, "star": rule_star,
@@ -273,10 +343,29 @@ RULES = {
 
 # ---------------------------------------------------------------- reading
 
-def read_card(card, deck, sources, as_of):
-    base = {k: card[k] for k in ("id", "number", "numeral", "name", "signal", "slot", "source")}
+def source_files(card, scope):
+    names = re.findall(r"(\w+)\.json", card["source"])
+    if scope == "pr" and card["id"] in PR_RULES:
+        names = ["pr"] + [n for n in names if n == "coverage"]
+    return names
+
+
+def read_card(card, deck, sources, as_of, pr_mode=False):
+    scope = "pr" if pr_mode and card["id"] in PR_RULES else "repo"
+    base = {k: card[k] for k in ("id", "number", "numeral", "name", "signal", "slot")}
+    files = source_files(card, scope)
+    base["source"] = " + ".join(f"{n}.json" for n in files)
+    base["scope"] = scope
+    prov = sources.get("manifest", {}).get("provenance", {})
+    via = []
+    for n in files:
+        connector = prov.get(n, {}).get("connector")
+        if connector and connector not in via:
+            via.append(connector)
+    base["via"] = via
+    rule = PR_RULES[card["id"]] if scope == "pr" else RULES[card["id"]]
     try:
-        result = RULES[card["id"]](card, sources, as_of)
+        result = rule(card, sources, as_of)
     except Clouded as c:
         return {**base, "state": "clouded", "strength": 0.0, "confidence": None, "evidence": [], "missing": c.missing,
                 "prophecy": deck["clouded_prophecy"]}
@@ -312,14 +401,17 @@ def summary_line(deck, cards, spread):
     return f"In the past, {parts[0]}; in the present, {parts[1]}; and for the next release, {parts[2]}."
 
 
-def read(data_dir, as_of=None):
+def read(data_dir, as_of=None, pr_path=None):
     deck = load_deck()
-    sources = load_sources(data_dir)
+    pr_mode = pr_path is not None
+    sources, problems = load_sources(data_dir, {"pr": Path(pr_path)} if pr_mode else None)
+    if pr_mode and "pr" not in sources:
+        raise SystemExit(f"PR file unusable: {pr_path} {problems.get('pr', ['not found'])}")
     manifest = sources.get("manifest", {})
     if as_of is None:
         as_of = manifest.get("as_of")
     as_of_dt = parse_ts(as_of) if as_of else datetime.now(timezone.utc).replace(microsecond=0)
-    cards = [read_card(card, deck, sources, as_of_dt) for card in deck["cards"]]
+    cards = [read_card(card, deck, sources, as_of_dt, pr_mode) for card in deck["cards"]]
     spread = choose_spread(cards)
     return {
         "deck": deck["deck"],
@@ -327,7 +419,10 @@ def read(data_dir, as_of=None):
         "subject": manifest.get("subject", "unnamed system"),
         "release": manifest.get("release"),
         "as_of": as_of_dt.strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "sources": sorted(sources),
+        "sources": sorted(k for k in sources if not k.startswith("_")),
+        "source_problems": problems,
+        "provenance": manifest.get("provenance", {}),
+        "pr": ({k: sources["pr"].get(k) for k in ("number", "title", "url", "head_sha")} if pr_mode else None),
         "summary": summary_line(deck, cards, spread),
         "spread": spread,
         "cards": cards,
@@ -346,13 +441,21 @@ def main(argv=None):
     rd.add_argument("--data", required=True)
     rd.add_argument("--out", default="reading")
     rd.add_argument("--as-of", default=None, help="ISO time to read at; defaults to manifest.json as_of, else now")
+    pr = sub.add_parser("pr", help="Read a pull request against your data folder and write comment.md")
+    pr.add_argument("--data", required=True)
+    pr.add_argument("--pr", required=True, help="pr.json written by a collector or agent")
+    pr.add_argument("--out", default="reading")
+    pr.add_argument("--as-of", default=None)
+    dpr = sub.add_parser("demo-pr", help="Read the bundled fictional pull request")
+    dpr.add_argument("--out", default="reading")
     args = parser.parse_args(argv)
 
-    data_dir = DEMO_DIR if args.cmd == "demo" else Path(args.data)
+    data_dir = DEMO_DIR if args.cmd in ("demo", "demo-pr") else Path(args.data)
     if not data_dir.is_dir():
         print(f"Data folder not found: {data_dir}", file=sys.stderr)
         return 2
-    reading = read(data_dir, getattr(args, "as_of", None))
+    pr_path = {"pr": getattr(args, "pr", None), "demo-pr": DEMO_DIR / "demo_pr.json"}.get(args.cmd)
+    reading = read(data_dir, getattr(args, "as_of", None), pr_path)
 
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     import render  # local module, no third-party dependencies

@@ -138,7 +138,7 @@ th{{color:{MUTED};font-weight:500;font-size:12px;letter-spacing:1px;text-transfo
 td:last-child{{font-family:{MONO};font-size:12px}}
 footer{{margin-top:40px;color:{MUTED};font-size:13px;line-height:1.6}}
 </style></head><body><main>
-<div class="eyebrow">A reading for {escape(reading["subject"])}{" · release " + escape(reading["release"]) if reading.get("release") else ""} · as of {escape(reading["as_of"][:10])}</div>
+<div class="eyebrow">A reading for {escape(reading["subject"])}{" · PR #" + escape(str(reading["pr"]["number"])) if reading.get("pr") else ""}{" · release " + escape(reading["release"]) if reading.get("release") else ""} · as of {escape(reading["as_of"][:10])}</div>
 <h1>Quality Tea Leaves</h1>
 <p class="omen">{escape(reading["summary"])}</p>
 <span class="draft">DRAFT · PENDING HUMAN REVIEW</span>
@@ -200,6 +200,67 @@ def console(reading):
     return "\n".join(out)
 
 
+MARKER = "<!-- quality-tea-leaves -->"
+COMMENT_LIMIT = 60000  # GitHub allows 65,536 characters; leave room for the run link
+
+
+def _state_label(c):
+    return {"upright": "upright", "reversed": "reversed, improving", "clouded": "clouded, withheld", "quiet": "quiet"}[c["state"]]
+
+
+def _via(c):
+    return f" · via {', '.join(c['via'])}" if c.get("via") else ""
+
+
+def comment_md(reading):
+    """Compact Markdown for a PR comment. Text only: PR comments cannot show the SVG cards."""
+    by_id = {c["id"]: c for c in reading["cards"]}
+    pr = reading.get("pr") or {}
+    title = f"PR #{pr['number']}" if pr.get("number") else reading["subject"]
+    lines = [MARKER, f"## 🍵 Quality Tea Leaves: {title}", "",
+             f"> *{reading['summary']}*", ""]
+    for s in reading["spread"]:
+        c = by_id.get(s["card"])
+        if not c:
+            lines += [f"**{s['label']}**: the leaves are still.", ""]
+            continue
+        scope = " · this PR" if c.get("scope") == "pr" else ""
+        conf = f" · confidence **{c['confidence']}**" if c["confidence"] else ""
+        lines += [f"**{s['label']}: {c['numeral']} {c['name']}** ({_state_label(c)}{conf}{scope})", "",
+                  f"*{c['prophecy']}*", ""]
+        rows = c["missing"] if c["state"] == "clouded" else c["evidence"]
+        if c["state"] == "clouded":
+            lines.append("Missing evidence:")
+        lines += [f"- {r}" for r in rows]
+        lines += ["", f"<sub>Source: {c['source']}{_via(c)}</sub>", ""]
+    shown = {s["card"] for s in reading["spread"]}
+    rest = [c for c in reading["cards"] if c["id"] not in shown]
+    k = reading["counts"]
+    lines += ["<details><summary>Show full deck "
+              f"({k['upright']} upright, {k['reversed']} reversed, {k['quiet']} quiet, {k['clouded']} clouded)</summary>", "",
+              "| # | Card | Scope | State | Confidence | Evidence |", "| --- | --- | --- | --- | --- | --- |"]
+    for c in rest:
+        ev = "; ".join(c["missing"] or c["evidence"][:2]).replace("|", "/")
+        lines.append(f"| {c['numeral']} | {c['name']} | {c.get('scope', 'repo')} | {c['state']} | {c['confidence'] or ''} | {ev} |")
+    lines += ["", "</details>", ""]
+    prov = reading.get("provenance") or {}
+    if prov:
+        lines += ["<details><summary>Where the evidence came from</summary>", "", "| Source | Via | Pulled | Records |",
+                  "| --- | --- | --- | --- |"]
+        for name, p in sorted(prov.items()):
+            lines.append(f"| {name}.json | {p.get('connector', '')} | {str(p.get('pulled_at', ''))[:16]} | {p.get('records', '')} |")
+        lines += ["", "</details>", ""]
+    if reading.get("source_problems"):
+        bad = ", ".join(f"{n}.json" for n in sorted(reading["source_problems"]))
+        lines += [f"**Set aside** for failing the data contract: {bad}. Cards that need them are clouded.", ""]
+    lines += ["---", "<sub>Advisory only: this reading never blocks a merge. Cards are chosen by evidence, not chance; "
+              "clouded cards are withheld, never guessed. Draft for human review.</sub>"]
+    body = "\n".join(lines) + "\n"
+    if len(body) > COMMENT_LIMIT:
+        body = body[:COMMENT_LIMIT] + "\n\n(Reading truncated. See the full reading attached to the workflow run.)\n"
+    return body
+
+
 def write_all(reading, deck, out_dir):
     out_dir = Path(out_dir)
     cards_dir = out_dir / "cards"
@@ -215,4 +276,8 @@ def write_all(reading, deck, out_dir):
     (out_dir / "reading.json").write_text(json.dumps(reading, indent=2) + "\n")
     (out_dir / "reading.md").write_text(markdown(reading))
     (out_dir / "reading.html").write_text(html_page(reading, svgs))
-    return [out_dir / "reading.json", out_dir / "reading.md", out_dir / "reading.html", cards_dir]
+    written = [out_dir / "reading.json", out_dir / "reading.md", out_dir / "reading.html", cards_dir]
+    if reading.get("pr"):
+        (out_dir / "comment.md").write_text(comment_md(reading))
+        written.append(out_dir / "comment.md")
+    return written
