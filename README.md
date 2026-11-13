@@ -71,19 +71,19 @@ See the full example comment in [`docs/demo-pr/comment.md`](docs/demo-pr/comment
 
 Full workflow with permissions: [`examples/tea-leaves-pr.yml`](examples/tea-leaves-pr.yml).
 
-**One reading, two views.** The PR comment is compact text for reviewers (comments cannot show the SVG cards). In Claude, the same reading is published as an artifact with the full visual spread. In CI, the HTML reading is attached to the workflow run and linked from the comment. All three come from the same `reading.json`, so they never disagree.
+**One reading, two views.** The PR comment is compact text for reviewers (comments cannot show the SVG cards). In [Claude](https://claude.ai), the same reading is published as an artifact with the full visual spread. In CI, the HTML reading is attached to the workflow run and linked from the comment. All three come from the same `reading.json`, so they never disagree.
 
 ## Where the evidence comes from
 
-**Agents gather. Rules decide. A human approves.** Run as a skill, the agent pulls raw records through its connectors (GitHub, mabl, Jira, Sentry, Honeycomb and others) into a documented data contract, with provenance for every file. It never computes a number or picks a card: the offline engine does. A contract checker sets aside malformed agent output, and the cards that needed it cloud with a reason. The comment's footer shows which system and query every number came from. Details: [gathering.md](skills/quality-tea-leaves/references/gathering.md).
+**Agents gather. Rules decide. A human approves.** Run as a skill, the agent pulls raw records through its connectors (GitHub, [mabl](https://www.mabl.com), [Jira](https://www.atlassian.com/software/jira), [Sentry](https://sentry.io), [Honeycomb](https://www.honeycomb.io) and others) into a documented data contract, with provenance for every file. It never computes a number or picks a card: the offline engine does. A contract checker sets aside malformed agent output, and the cards that needed it cloud with a reason. The comment's footer shows which system and query every number came from. Details: [gathering.md](skills/quality-tea-leaves/references/gathering.md).
 
 | Runs as | Gathers with | Posts |
 | --- | --- | --- |
-| Claude Code or the Quality Engine, interactive | Your MCP connectors | Artifact for you; PR comment after you approve |
+| [Claude Code](https://www.anthropic.com/claude-code) or the Quality Engine, interactive | Your MCP connectors | Artifact for you; PR comment after you approve |
 | GitHub Action, Lite | GitHub CLI and the workflow token, plus optional exports | One advisory PR comment |
 | Claude Code GitHub Action, Full | MCP connectors with read-only tokens as secrets | One advisory PR comment |
 
-A Jira comment or Slack message is possible through those connectors under the same rules. It is documented, not built.
+A Jira comment or [Slack](https://slack.com) message is possible through those connectors under the same rules. It is documented, not built.
 
 ## How a card is drawn
 
@@ -146,7 +146,7 @@ The tests cover PR mode, the comment (marker, provenance, no author, size limit)
 
 | Option | Use |
 | --- | --- |
-| `dist/quality-tea-leaves.zip` | Upload as a skill (Claude, Agensi or any SKILL.md agent) |
+| `dist/quality-tea-leaves.zip` | Upload as a skill (Claude, [Agensi](https://agensi.io) or any SKILL.md agent) |
 | `skills/quality-tea-leaves/` | Copy into `~/.claude/skills/` |
 | `agents/quality-tea-leaves.md` | Copy into `.claude/agents/` to run it as a Claude Code agent |
 | `j-m-o/quality-tea-leaves@v1` | GitHub Action for PR comments (see `examples/tea-leaves-pr.yml`) |
